@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO (title is updated per-movie by js/details.js) -->
+    <title>Movie Details | CineVerse</title>
+    <meta name="description" content="Full movie details on CineVerse: rating, release date, genres, description, cast and trailer link.">
+    <meta name="author" content="CineVerse">
+    <meta name="theme-color" content="#0a0a10">
+
+    <meta property="og:title" content="Movie Details | CineVerse">
+    <meta property="og:description" content="Rating, release date, genres, cast and trailer for this movie.">
+    <meta property="og:type" content="video.movie">
+    <meta property="og:image" content="assets/images/og-image.svg">
+
+    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <!-- ================= NAVIGATION ================= -->
+    <header class="navbar scrolled" role="banner">
+        <div class="container">
+            <a class="brand" href="index.html" aria-label="CineVerse home">
+                <img class="brand-mark" src="assets/icons/favicon.svg" alt="" width="34" height="34">
+                CINE<em>VERSE</em>
+            </a>
+
+            <nav class="nav-links" aria-label="Primary navigation">
+                <a href="index.html">Home</a>
+                <a href="movies.html">Movies</a>
+                <a href="movies.html#genres">Genres</a>
+                <a href="index.html#trending">Trending</a>
+                <a href="about.html">About</a>
+            </nav>
+
+            <div class="nav-actions">
+                <form class="nav-search" id="nav-search" action="movies.html" method="get" role="search">
+                    <input type="search" name="search" id="nav-search-input"
+                           placeholder="Search movies..." aria-label="Search movies">
+                    <button type="button" class="icon-btn" id="nav-search-toggle"
+                            aria-label="Toggle search field" aria-expanded="false" aria-controls="nav-search-input">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none"
+                             stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                            <circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/>
+                        </svg>
+                    </button>
+                </form>
+
+                <button class="icon-btn hamburger" id="hamburger" aria-label="Open menu"
+                        aria-expanded="false" aria-controls="mobile-menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile menu panel -->
+    <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation">
+        <a href="index.html">Home</a>
+        <a href="movies.html">Movies</a>
+        <a href="movies.html#genres">Genres</a>
+        <a href="index.html#trending">Trending</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main id="main">
+
+        <!-- Loading state: spinner shown until the movie data arrives -->
+        <section class="state-message visible" id="details-loading" aria-live="polite">
+            <div class="spinner" role="status" aria-label="Loading"></div>
+            <p>Loading movie...</p>
+        </section>
+
+        <!-- Error state: bad id or data could not load -->
+        <section class="not-found state-message visible" id="not-found" hidden>
+            <span class="state-icon" aria-hidden="true">&#127915;</span>
+            <h1>Movie not found.</h1>
+            <p>The movie you are looking for does not exist in our library.
+               It may have been removed, or the link is incorrect.</p>
+            <a class="btn" href="movies.html">Back to Movies</a>
+        </section>
+
+        <!-- The actual details layout (hidden until rendered) -->
+        <article id="details-content" hidden>
+            <!-- Backdrop banner + core info -->
+            <section class="detail-hero">
+                <div class="detail-backdrop" aria-hidden="true">
+                    <img src="assets/images/backdrop-1.svg" alt="" id="detail-backdrop-img">
+                </div>
+
+                <div class="container detail-layout">
+                    <figure class="detail-poster reveal visible">
+                        <img src="assets/posters/poster-1.svg" alt="Movie poster" id="detail-poster-img" width="290">
+                    </figure>
+
+                    <div class="detail-info reveal visible">
+                        <h1 id="detail-title">Loading...</h1>
+
+                        <p class="detail-meta">
+                            <span class="rating detail-rating" id="detail-rating" title="Rating out of 10">&#9733; --</span>
+                            <span class="pill" id="detail-year"></span>
+                        </p>
+
+                        <p class="detail-meta" style="margin-top:0.4rem;">
+                            <span>Release Date:<strong id="detail-release-date"></strong></span>
+                        </p>
+
+                        <div class="detail-genres" id="detail-genres"></div>
+
+                        <p class="detail-desc" id="detail-description"></p>
+
+                        <div class="detail-actions">
+                            <a class="btn" id="detail-trailer-btn"
+                               href="#" target="_blank" rel="noopener noreferrer">
+                                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                                Watch Trailer
+                            </a>
+                            <a class="btn btn-outline" href="movies.html">Back to Movies</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Cast -->
+            <section class="detail-section section" aria-labelledby="cast-heading">
+                <div class="container">
+                    <h2 class="section-title" id="cast-heading">Cast</h2>
+                    <div class="cast-grid" id="cast-grid" style="margin-top:1.8rem;"></div>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <a class="brand" href="index.html">
+                        <img class="brand-mark" src="assets/icons/favicon.svg" alt="" width="30" height="30">
+                        CINE<em>VERSE</em>
+                    </a>
+                    <p>Discover your next favorite movie. A modern, lightweight movie discovery experience built for the web.</p>
+                    <div class="social-row">
+                        <a class="btn-icon" href="#" aria-label="CineVerse on Facebook">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M13.5 21v-7h2.4l.4-3h-2.8V9.1c0-.9.3-1.6 1.6-1.6h1.3V4.8c-.6-.1-1.4-.2-2.3-.2-2.3 0-3.9 1.4-3.9 4V11H7.8v3h2.4v7h3.3z"/></svg>
+                        </a>
+                        <a class="btn-icon" href="#" aria-label="CineVerse on Instagram">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="4.5"/><circle cx="12" cy="12" r="3.8"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg>
+                        </a>
+                        <a class="btn-icon" href="#" aria-label="CineVerse on X">
+                            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M17.7 3H21l-7.3 8.3L22.2 21h-6.7l-5.2-6.3L4.4 21H1l7.8-8.9L2.2 3H9l4.7 5.7L17.7 3zm-1.2 16h1.9L7.1 4.9H5L16.5 19z"/></svg>
+                        </a>
+                        <a class="btn-icon" href="#" aria-label="CineVerse on YouTube">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M21.6 7.2a2.6 2.6 0 0 0-1.8-1.9C18.2 5 12 5 12 5s-6.2 0-7.8.3A2.6 2.6 0 0 0 2.4 7.2 27 27 0 0 0 2 12a27 27 0 0 0 .4 4.8 2.6 2.6 0 0 0 1.8 1.9c1.6.3 7.8.3 7.8.3s6.2 0 7.8-.3a2.6 2.6 0 0 0 1.8-1.9A27 27 0 0 0 22 12a27 27 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <nav aria-label="Footer navigation">
+                    <h4>Explore</h4>
+                    <div class="footer-links">
+                        <a href="index.html">Home</a>
+                        <a href="movies.html">Movies</a>
+                        <a href="index.html#trending">Trending</a>
+                        <a href="about.html">About</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </nav>
+
+                <nav aria-label="Genre links">
+                    <h4>Genres</h4>
+                    <div class="footer-links">
+                        <a href="movies.html?genre=Action">Action</a>
+                        <a href="movies.html?genre=Comedy">Comedy</a>
+                        <a href="movies.html?genre=Horror">Horror</a>
+                        <a href="movies.html?genre=Sci-Fi">Sci-Fi</a>
+                        <a href="movies.html?genre=Drama">Drama</a>
+                        <a href="movies.html?genre=Romance">Romance</a>
+                    </div>
+                </nav>
+
+                <nav aria-label="Support links">
+                    <h4>Support</h4>
+                    <div class="footer-links">
+                        <a href="contact.html">Help Center</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="footer-year">2026</span> CineVerse. All rights reserved. All movies are fictional demo content.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js" defer></script>
+    <script src="js/movies.js" defer></script>
+    <script src="js/details.js" defer></script>
+</body>
+</html>

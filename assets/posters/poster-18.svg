@@ -1,0 +1,25 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200" viewBox="0 0 400 600" role="img" aria-label="STATIC BLOOM movie poster">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#41236b"/><stop offset="1" stop-color="#0c0518"/>
+</linearGradient>
+<linearGradient id="vig" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0.55" stop-color="#000000" stop-opacity="0"/><stop offset="1" stop-color="#000000" stop-opacity="0.72"/>
+</linearGradient>
+</defs>
+<rect width="400" height="600" fill="url(#bg)"/>
+<g transform="translate(200 240)">
+<g fill="#7ef29d" opacity="0.85">
+<ellipse cx="0" cy="-64" rx="30" ry="52"/>
+<ellipse cx="61" cy="-20" rx="30" ry="52" transform="rotate(72 61 -20)" transform-origin="0 0"/>
+<ellipse cx="38" cy="52" rx="30" ry="52"/><ellipse cx="-38" cy="52" rx="30" ry="52"/><ellipse cx="-61" cy="-20" rx="30" ry="52"/>
+</g>
+<circle r="30" fill="#f7f3e9" opacity="0.95"/><circle r="14" fill="#1c1030"/>
+</g>
+<path d="M200 320 L200 470" stroke="#3f7d52" stroke-width="8" stroke-linecap="round"/>
+<path d="M200 400 Q160 380 152 344 Q192 350 200 400 Z" fill="#3f7d52" opacity="0.9"/>
+<rect width="400" height="600" fill="url(#vig)"/>
+<text x="200" y="46" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" letter-spacing="4" fill="#ffffff" opacity="0.55">A CINEVERSE PICTURE</text>
+<text x="200" y="452" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="34" letter-spacing="2" fill="#ffffff">STATIC</text><text x="200" y="496" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="34" letter-spacing="2" fill="#ffffff">BLOOM</text>
+<text x="200" y="540" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13" letter-spacing="3" fill="#7ef29d">2026 &#183; SCI-FI / ROMANCE</text>
+</svg>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>Contact | CineVerse</title>
+    <meta name="description" content="Get in touch with the CineVerse team. Send feedback, questions or suggestions about the movie discovery website.">
+    <meta name="author" content="CineVerse">
+    <meta name="theme-color" content="#0a0a10">
+
+    <meta property="og:title" content="Contact | CineVerse">
+    <meta property="og:description" content="Send feedback or questions to the CineVerse team.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/images/og-image.svg">
+
+    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <!-- ================= NAVIGATION ================= -->
+    <header class="navbar scrolled" role="banner">
+        <div class="container">
+            <a class="brand" href="index.html" aria-label="CineVerse home">
+                <img class="brand-mark" src="assets/icons/favicon.svg" alt="" width="34" height="34">
+                CINE<em>VERSE</em>
+            </a>
+
+            <nav class="nav-links" aria-label="Primary navigation">
+                <a href="index.html">Home</a>
+                <a href="movies.html">Movies</a>
+                <a href="movies.html#genres">Genres</a>
+                <a href="index.html#trending">Trending</a>
+                <a href="about.html">About</a>
+            </nav>
+
+            <div class="nav-actions">
+                <form class="nav-search" id="nav-search" action="movies.html" method="get" role="search">
+                    <input type="search" name="search" id="nav-search-input"
+                           placeholder="Search movies..." aria-label="Search movies">
+                    <button type="button" class="icon-btn" id="nav-search-toggle"
+                            aria-label="Toggle search field" aria-expanded="false" aria-controls="nav-search-input">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none"
+                             stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                            <circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/>
+                        </svg>
+                    </button>
+                </form>
+
+                <button class="icon-btn hamburger" id="hamburger" aria-label="Open menu"
+                        aria-expanded="false" aria-controls="mobile-menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile menu panel -->
+    <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation">
+        <a href="index.html">Home</a>
+        <a href="movies.html">Movies</a>
+        <a href="movies.html#genres">Genres</a>
+        <a href="index.html#trending">Trending</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main id="main">
+
+        <!-- ================= PAGE HEADER ================= -->
+        <section class="page-hero">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p class="lead">Feedback, bug reports, feature wishes &mdash; send anything
+                   our way and we will get back to you.</p>
+            </div>
+        </section>
+
+        <!-- ================= FORM + INFO ================= -->
+        <section class="section">
+            <div class="container contact-layout">
+
+                <!-- Contact information -->
+                <div class="contact-info reveal visible">
+                    <h2>Talk to us</h2>
+                    <p style="color:var(--muted);">We read every message.
+                       For demo purposes this form stores submissions on the server
+                       when PHP is available &mdash; no email is actually sent.</p>
+                    <ul class="contact-list">
+                        <li>
+                            <span aria-hidden="true">&#9993;&#65039;</span>
+                            <span><strong>Email</strong> hello@cineverse.example</span>
+                        </li>
+                        <li>
+                            <span aria-hidden="true">&#9200;</span>
+                            <span><strong>Response time</strong> Usually within 2 business days</span>
+                        </li>
+                        <li>
+                            <span aria-hidden="true">&#127760;</span>
+                            <span><strong>Social</strong> Find us through the footer links</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- The form posts to send.php (with a JS fallback) -->
+                <form class="contact-form" id="contact-form" novalidate>
+                    <div class="form-field">
+                        <label for="contact-name">Name</label>
+                        <input type="text" id="contact-name" name="name"
+                               autocomplete="name" placeholder="Your name" required minlength="2">
+                        <p class="error-text">Please enter your name (at least 2 characters).</p>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="contact-email">Email</label>
+                        <input type="email" id="contact-email" name="email"
+                               autocomplete="email" placeholder="you@example.com" required>
+                        <p class="error-text">Please enter a valid email address.</p>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="contact-subject">Subject</label>
+                        <input type="text" id="contact-subject" name="subject"
+                               placeholder="What is it about?" required minlength="3">
+                        <p class="error-text">Please add a short subject.</p>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="contact-message">Message</label>
+                        <textarea id="contact-message" name="message"
+                                  placeholder="Write your message..." required minlength="10"></textarea>
+                        <p class="error-text">Your message should be at least 10 characters.</p>
+                    </div>
+
+                    <button class="btn btn-block" type="submit">Send Message</button>
+
+                    <p class="form-status" id="contact-status" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <a class="brand" href="index.html">
+                        <img class="brand-mark" src="assets/icons/favicon.svg" alt="" width="30" height="30">
+                        CINE<em>VERSE</em>
+                    </a>
+                    <p>Discover your next favorite movie. A modern, lightweight movie discovery experience built for the web.</p>
+                    <div class="social-row">
+                        <a class="btn-icon" href="#" aria-label="CineVerse on Facebook">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M13.5 21v-7h2.4l.4-3h-2.8V9.1c0-.9.3-1.6 1.6-1.6h1.3V4.8c-.6-.1-1.4-.2-2.3-.2-2.3 0-3.9 1.4-3.9 4V11H7.8v3h2.4v7h3.3z"/></svg>
+                        </a>
+                        <a class="btn-icon" href="#" aria-label="CineVerse on Instagram">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="4.5"/><circle cx="12" cy="12" r="3.8"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg>
+                        </a>
+                        <a class="btn-icon" href="#" aria-label="CineVerse on X">
+                            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M17.7 3H21l-7.3 8.3L22.2 21h-6.7l-5.2-6.3L4.4 21H1l7.8-8.9L2.2 3H9l4.7 5.7L17.7 3zm-1.2 16h1.9L7.1 4.9H5L16.5 19z"/></svg>
+                        </a>
+                        <a class="btn-icon" href="#" aria-label="CineVerse on YouTube">
+                            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M21.6 7.2a2.6 2.6 0 0 0-1.8-1.9C18.2 5 12 5 12 5s-6.2 0-7.8.3A2.6 2.6 0 0 0 2.4 7.2 27 27 0 0 0 2 12a27 27 0 0 0 .4 4.8 2.6 2.6 0 0 0 1.8 1.9c1.6.3 7.8.3 7.8.3s6.2 0 7.8-.3a2.6 2.6 0 0 0 1.8-1.9A27 27 0 0 0 22 12a27 27 0 0 0-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg>
+                        </a>
+                    </div>
+                </div>
+
+                <nav aria-label="Footer navigation">
+                    <h4>Explore</h4>
+                    <div class="footer-links">
+                        <a href="index.html">Home</a>
+                        <a href="movies.html">Movies</a>
+                        <a href="index.html#trending">Trending</a>
+                        <a href="about.html">About</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </nav>
+
+                <nav aria-label="Genre links">
+                    <h4>Genres</h4>
+                    <div class="footer-links">
+                        <a href="movies.html?genre=Action">Action</a>
+                        <a href="movies.html?genre=Comedy">Comedy</a>
+                        <a href="movies.html?genre=Horror">Horror</a>
+                        <a href="movies.html?genre=Sci-Fi">Sci-Fi</a>
+                        <a href="movies.html?genre=Drama">Drama</a>
+                        <a href="movies.html?genre=Romance">Romance</a>
+                    </div>
+                </nav>
+
+                <nav aria-label="Support links">
+                    <h4>Support</h4>
+                    <div class="footer-links">
+                        <a href="contact.html">Help Center</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="footer-year">2026</span> CineVerse. All rights reserved. All movies are fictional demo content.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js" defer></script>
+</body>
+</html>

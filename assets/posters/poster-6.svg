@@ -1,0 +1,20 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200" viewBox="0 0 400 600" role="img" aria-label="SALTWATER SUMMER movie poster">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#0d4a63"/><stop offset="1" stop-color="#04121c"/>
+</linearGradient>
+<linearGradient id="vig" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0.55" stop-color="#000000" stop-opacity="0"/><stop offset="1" stop-color="#000000" stop-opacity="0.72"/>
+</linearGradient>
+</defs>
+<rect width="400" height="600" fill="url(#bg)"/>
+<circle cx="200" cy="215" r="62" fill="#ffd166" opacity="0.9"/>
+<rect x="196" y="120" width="8" height="52" rx="4" fill="#ffd166" opacity="0.35"/><rect x="196" y="258" width="8" height="52" rx="4" fill="#ffd166" opacity="0.35"/>
+<path d="M0 400 Q100 355 200 400 T400 400 V600 H0 Z" fill="#ffd166" opacity="0.22"/>
+<path d="M0 452 Q100 408 200 452 T400 452 V600 H0 Z" fill="#000000" opacity="0.38"/>
+<path d="M0 506 Q100 462 200 506 T400 506 V600 H0 Z" fill="#000000" opacity="0.6"/>
+<rect width="400" height="600" fill="url(#vig)"/>
+<text x="200" y="46" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" letter-spacing="4" fill="#ffffff" opacity="0.55">A CINEVERSE PICTURE</text>
+<text x="200" y="452" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="34" letter-spacing="2" fill="#ffffff">SALTWATER</text><text x="200" y="496" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="34" letter-spacing="2" fill="#ffffff">SUMMER</text>
+<text x="200" y="540" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13" letter-spacing="3" fill="#ffd166">2023 &#183; ROMANCE / DRAMA</text>
+</svg>

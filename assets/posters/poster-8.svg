@@ -1,0 +1,20 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1200" viewBox="0 0 400 600" role="img" aria-label="IRONWAKE movie poster">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#08414f"/><stop offset="1" stop-color="#01080d"/>
+</linearGradient>
+<linearGradient id="vig" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0.55" stop-color="#000000" stop-opacity="0"/><stop offset="1" stop-color="#000000" stop-opacity="0.72"/>
+</linearGradient>
+</defs>
+<rect width="400" height="600" fill="url(#bg)"/>
+<circle cx="200" cy="235" r="36" fill="#43e0c8" opacity="0.9"/>
+<circle cx="200" cy="235" r="74" fill="none" stroke="#43e0c8" stroke-width="3" opacity="0.75"/>
+<circle cx="200" cy="235" r="112" fill="none" stroke="#43e0c8" stroke-width="2.5" opacity="0.5"/>
+<circle cx="200" cy="235" r="152" fill="none" stroke="#43e0c8" stroke-width="2" opacity="0.3"/>
+<circle cx="200" cy="235" r="196" fill="none" stroke="#43e0c8" stroke-width="1.5" opacity="0.16"/>
+<rect width="400" height="600" fill="url(#vig)"/>
+<text x="200" y="46" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="11" letter-spacing="4" fill="#ffffff" opacity="0.55">A CINEVERSE PICTURE</text>
+<text x="200" y="486" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-weight="700" font-size="34" letter-spacing="2" fill="#ffffff">IRONWAKE</text>
+<text x="200" y="540" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13" letter-spacing="3" fill="#43e0c8">2025 &#183; ACTION / ADVENTURE</text>
+</svg>
