@@ -1,7 +1,7 @@
 /* ============================================================
-   CineVerse — data/movies.js
+   CineVerse - data/movies.js
    AUTO-GENERATED from movies.json by tools/sync-movies.js.
-   Do not edit by hand — edit data/movies.json and re-run:
+   Do not edit by hand - edit data/movies.json and re-run:
        node tools/sync-movies.js
    ============================================================ */
 

@@ -1,5 +1,5 @@
 /* ============================================================
-   CineVerse — movies.js
+   CineVerse - movies.js
    Everything about movie DATA and CARDS:
    - Loading data/movies.json (with friendly error handling)
    - Building movie card HTML
@@ -57,7 +57,7 @@ let moviesPromise = null;
 function loadMovies() {
     if (!moviesPromise) {
         moviesPromise = loadMovieData().catch((error) => {
-            console.error("CineVerse: could not load movie data —", error);
+            console.error("CineVerse: could not load movie data -", error);
             moviesPromise = null; // allow a retry next time
             throw error;
         });
@@ -179,7 +179,7 @@ async function initHomePage() {
         renderRecommended("#recommended-grid", movies, 4);
         renderGenreTiles("#genre-tiles", movies);
     } catch (error) {
-        // Data failed to load — tell visitors politely, log details for devs.
+        // Data failed to load - tell visitors politely, log details for devs.
         showHomeError();
     }
 }
@@ -234,7 +234,7 @@ function renderGenreTiles(selector, movies) {
     const container = document.querySelector(selector);
     if (!container) return;
 
-    // Icon per genre — plain emoji keeps it dependency-free.
+    // Icon per genre - plain emoji keeps it dependency-free.
     const icons = {
         Action: "&#127520;", Comedy: "&#128514;", Horror: "&#129504;",
         "Sci-Fi": "&#128640;", Drama: "&#127917;", Romance: "&#10084;",
@@ -272,7 +272,7 @@ function showHomeError() {
 }
 
 /* ------------------------------------------------------------
-   CATALOG PAGE (movies.html) — search + genre + sort combined
+   CATALOG PAGE (movies.html) - search + genre + sort combined
    ------------------------------------------------------------ */
 
 // Current filter state. All three controls combine together.
@@ -455,7 +455,7 @@ function buildGenreChips(chipRow, movies) {
 }
 
 /* ------------------------------------------------------------
-   BOOTSTRAP — decide which page we are on and start it.
+   BOOTSTRAP - decide which page we are on and start it.
    Each init function checks for its own root element, so this
    stays safe on every page.
    ------------------------------------------------------------ */

@@ -1,5 +1,5 @@
 /* ============================================================
-   CineVerse — app.js
+   CineVerse - app.js
    General UI behaviour shared by every page:
    - Sticky navbar background when scrolling
    - Mobile hamburger menu
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 /* ------------------------------------------------------------
-   NAVBAR QUICK SEARCH — the magnifier expands a small input.
+   NAVBAR QUICK SEARCH - the magnifier expands a small input.
    Submitting jumps to movies.html?search=... where the full
    live-filtering catalog takes over. Escape closes it.
    ------------------------------------------------------------ */
@@ -44,7 +44,7 @@ function initNavSearch() {
         }
     });
 
-    // Never navigate with an empty query — just close the field
+    // Never navigate with an empty query - just close the field
     form.addEventListener("submit", (event) => {
         if (input.value.trim() === "") event.preventDefault();
     });
@@ -60,7 +60,7 @@ function initNavSearch() {
 }
 
 /* ------------------------------------------------------------
-   NAVBAR — add a blurred dark background once the user scrolls
+   NAVBAR - add a blurred dark background once the user scrolls
    ------------------------------------------------------------ */
 function initNavbar() {
     const navbar = document.querySelector(".navbar");
@@ -76,7 +76,7 @@ function initNavbar() {
 }
 
 /* ------------------------------------------------------------
-   MOBILE MENU — open/close the slide-down panel.
+   MOBILE MENU - open/close the slide-down panel.
    Closes when: a link is chosen, Escape is pressed,
    or the viewport grows past the desktop breakpoint.
    ------------------------------------------------------------ */
@@ -114,7 +114,7 @@ function initMobileMenu() {
 }
 
 /* ------------------------------------------------------------
-   ACTIVE LINK — mark the nav item that matches this page
+   ACTIVE LINK - mark the nav item that matches this page
    ------------------------------------------------------------ */
 function initActiveNavLink() {
     const here = location.pathname.split("/").pop() || "index.html";
@@ -129,7 +129,7 @@ function initActiveNavLink() {
 }
 
 /* ------------------------------------------------------------
-   SCROLL REVEAL — fade sections in as they enter the viewport.
+   SCROLL REVEAL - fade sections in as they enter the viewport.
    Uses IntersectionObserver; skipped entirely when the user
    prefers reduced motion.
    ------------------------------------------------------------ */
@@ -161,7 +161,7 @@ function initScrollReveal() {
 }
 
 /* ------------------------------------------------------------
-   FOOTER YEAR — keeps the copyright year current
+   FOOTER YEAR - keeps the copyright year current
    ------------------------------------------------------------ */
 function updateFooterYear() {
     const el = document.getElementById("footer-year");
@@ -169,7 +169,7 @@ function updateFooterYear() {
 }
 
 /* ------------------------------------------------------------
-   FORM HELPERS — shared by newsletter + contact forms.
+   FORM HELPERS - shared by newsletter + contact forms.
    The site works two ways:
    1. Served by PHP (XAMPP/Live Server with PHP): forms POST to
       subscribe.php / send.php which save submissions to JSON.
@@ -189,7 +189,7 @@ async function submitForm(url, payload, statusEl) {
         const result = await response.json();
         return result.ok === true;
     } catch (error) {
-        // No PHP server available (or network hiccup) — demo fallback.
+        // No PHP server available (or network hiccup) - demo fallback.
         console.info("Form endpoint unavailable, using demo mode.", error.message);
         statusEl.textContent =
             "Demo mode: your message was noted locally. Deploy with PHP hosting to store real submissions.";
@@ -235,7 +235,7 @@ function initNewsletterForm() {
 }
 
 /* ------------------------------------------------------------
-   CONTACT FORM (contact.html) — validates each field,
+   CONTACT FORM (contact.html) - validates each field,
    highlights problems, then posts to send.php.
    ------------------------------------------------------------ */
 function initContactForm() {

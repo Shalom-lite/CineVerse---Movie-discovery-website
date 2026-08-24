@@ -1,5 +1,5 @@
 /* ============================================================
-   CineVerse — style.css
+   CineVerse - style.css
    A cinematic dark theme for the CineVerse movie website.
 
    TABLE OF CONTENTS
@@ -221,10 +221,7 @@ h1, h2, h3, h4 {
     flex-shrink: 0;
 }
 
-.text-muted { color: var(--muted); }
-.text-small { font-size: 0.9rem; }
-
-/* Rating star — used across cards, hero and details */
+/* Rating star - used across cards, hero and details */
 .rating {
     display: inline-flex;
     align-items: center;
@@ -299,17 +296,6 @@ h1, h2, h3, h4 {
 .btn-outline:hover {
     border-color: var(--accent);
     background: rgba(139, 92, 246, 0.1);
-    box-shadow: none;
-}
-
-.btn-ghost {
-    background: rgba(255, 255, 255, 0.12);
-    backdrop-filter: blur(6px);
-    color: #fff;
-}
-
-.btn-ghost:hover {
-    background: rgba(255, 255, 255, 0.22);
     box-shadow: none;
 }
 
@@ -1352,7 +1338,7 @@ h1, h2, h3, h4 {
 }
 
 /* ============================================================
-   15. STATES — loading skeletons, empty & error messages
+   15. STATES - loading skeletons, empty & error messages
    ============================================================ */
 .state-message {
     display: none;

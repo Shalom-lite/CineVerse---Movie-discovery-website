@@ -1,5 +1,5 @@
 /* ============================================================
-   CineVerse — details.js
+   CineVerse - details.js
    The movie details page (movie-details.html):
    - Reads the movie id from the URL: movie-details.html?id=5
    - Renders backdrop, poster, title, rating, dates, genres,

@@ -1,5 +1,5 @@
 /* ============================================================
-   CineVerse — tools/sync-movies.js  (developer helper only)
+   CineVerse - tools/sync-movies.js  (developer helper only)
 
    The website keeps TWO copies of the movie dataset:
    - data/movies.json  → used by fetch() when served over http(s)
@@ -37,9 +37,9 @@ if (!Array.isArray(movies) || movies.length === 0) {
 // 2. Write the mirror as a tiny script that sets a global variable
 const banner =
     "/* ============================================================\n" +
-    "   CineVerse — data/movies.js\n" +
+    "   CineVerse - data/movies.js\n" +
     "   AUTO-GENERATED from movies.json by tools/sync-movies.js.\n" +
-    "   Do not edit by hand — edit data/movies.json and re-run:\n" +
+    "   Do not edit by hand - edit data/movies.json and re-run:\n" +
     "       node tools/sync-movies.js\n" +
     "   ============================================================ */\n\n";
 
