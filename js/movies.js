@@ -47,23 +47,49 @@ const PLAY_ICON =
 /* ------------------------------------------------------------
    DATA LOADING
    One shared promise so several sections never fetch twice.
+   Two ways to get the data:
+   1. http(s): fetch data/movies.json (Live Server, XAMPP, hosting)
+   2. file:// : browsers block fetch() on local files, so we load
+                data/movies.js (a mirror of the JSON) via a script tag
    ------------------------------------------------------------ */
 let moviesPromise = null;
 
 function loadMovies() {
     if (!moviesPromise) {
-        moviesPromise = fetch("data/movies.json")
-            .then((response) => {
-                if (!response.ok) throw new Error("HTTP " + response.status);
-                return response.json();
-            })
-            .catch((error) => {
-                console.error("CineVerse: could not load movies.json —", error);
-                moviesPromise = null; // allow a retry next time
-                throw error;
-            });
+        moviesPromise = loadMovieData().catch((error) => {
+            console.error("CineVerse: could not load movie data —", error);
+            moviesPromise = null; // allow a retry next time
+            throw error;
+        });
     }
     return moviesPromise;
+}
+
+function loadMovieData() {
+    // Normal case: the page is served by a web server.
+    if (location.protocol !== "file:") {
+        return fetch("data/movies.json").then((response) => {
+            if (!response.ok) throw new Error("HTTP " + response.status);
+            return response.json();
+        });
+    }
+
+    // Opened by double-clicking index.html: script tags are allowed,
+    // so pull the pre-generated copy from data/movies.js instead.
+    return new Promise((resolve, reject) => {
+        const script = document.createElement("script");
+        script.src = "data/movies.js";
+        script.onload = () => {
+            if (Array.isArray(window.CINEVERSE_MOVIES) && window.CINEVERSE_MOVIES.length > 0) {
+                resolve(window.CINEVERSE_MOVIES);
+            } else {
+                reject(new Error("data/movies.js loaded but contained no movies. Run: node tools/sync-movies.js"));
+            }
+        };
+        script.onerror = () =>
+            reject(new Error("Could not load data/movies.js. Run: node tools/sync-movies.js"));
+        document.head.appendChild(script);
+    });
 }
 
 /* ------------------------------------------------------------

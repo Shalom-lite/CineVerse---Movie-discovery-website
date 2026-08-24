@@ -75,7 +75,11 @@ cineverse/
 │   └── details.js          # Reads ?id= and renders one movie's details
 │
 ├── data/
-│   └── movies.json         # The movie catalog (22 fictional records)
+│   ├── movies.json         # The movie catalog (22 fictional records)
+│   └── movies.js           # Auto-generated mirror used when opened via file://
+│
+├── tools/
+│   └── sync-movies.js      # Regenerates data/movies.js after you edit the JSON
 │
 ├── php/
 │   └── helpers.php         # Shared sanitize/validate/storage functions
@@ -100,8 +104,9 @@ The movie browsing/search/filtering needs **no server**:
    (or click "Go Live" in the status bar).
 4. The site opens at something like `http://127.0.0.1:5500/index.html`.
 
-You can also just double-click `index.html`, though some browsers restrict
-`fetch()` on `file://` URLs — Live Server avoids that entirely.
+Double-clicking `index.html` also works — when opened as a plain file the site
+automatically loads its data from `data/movies.js` instead of using `fetch()`
+(which browsers block on `file://` pages).
 
 ### Option 2 — XAMPP (to use the PHP forms)
 
@@ -149,6 +154,8 @@ Open `data/movies.json`. Each record looks like:
 - `"featured": true` puts a movie in the big home banner (keep exactly one).
 - `"trending": true` adds it to the Trending row.
 - New genre names appear as filter chips **automatically**.
+- After editing, run `node tools/sync-movies.js` once so the file://
+  fallback copy (`data/movies.js`) stays in sync with the JSON.
 
 ### Change movie posters / backdrops
 

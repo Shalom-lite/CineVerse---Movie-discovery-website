@@ -1,0 +1,539 @@
+/* ============================================================
+   CineVerse — data/movies.js
+   AUTO-GENERATED from movies.json by tools/sync-movies.js.
+   Do not edit by hand — edit data/movies.json and re-run:
+       node tools/sync-movies.js
+   ============================================================ */
+
+window.CINEVERSE_MOVIES = [
+    {
+        "id": 1,
+        "title": "The Last Horizon",
+        "year": 2026,
+        "rating": 8.7,
+        "genre": [
+            "Action",
+            "Sci-Fi",
+            "Adventure"
+        ],
+        "description": "Humanity's final expedition launches beyond the edge of known space to find a new home before Earth's last resources run out.",
+        "fullDescription": "When Earth's ecosystems collapse faster than predicted, Commander Ava Reyes is chosen to lead the Odyssey, humanity's final expedition beyond the edge of known space. Her mission: find a habitable world before the last resources run out.\n\nWhat begins as a rescue voyage becomes a fight for the soul of the crew, as the ship's AI begins questioning whether mankind deserves a second chance. The Last Horizon is a sweeping tale of sacrifice, wonder, and the price of survival among the stars.",
+        "poster": "assets/posters/poster-1.svg",
+        "backdrop": "assets/images/backdrop-1.svg",
+        "cast": [
+            "Amara Chen",
+            "Dario Vasquez",
+            "Nadia Okafor",
+            "Elias Thorn"
+        ],
+        "releaseDate": "2026-05-10",
+        "trailer": "https://www.youtube.com/results?search_query=the+last+horizon+movie+trailer",
+        "trending": true,
+        "featured": true
+    },
+    {
+        "id": 2,
+        "title": "Midnight Circuit",
+        "year": 2025,
+        "rating": 8.2,
+        "genre": [
+            "Action",
+            "Thriller"
+        ],
+        "description": "A street racer is framed for a heist she never committed and must outrun both the police and the syndicate that set her up.",
+        "fullDescription": "Kira Vale rules the underground racing scene of Meridian City, but one midnight run turns deadly when her crew is framed for a multimillion-dollar heist they never committed.\n\nWith the police closing in and the real thieves hunting her down, Kira must rebuild her crew, expose the syndicate, and survive one final race where every road ends in betrayal.",
+        "poster": "assets/posters/poster-2.svg",
+        "backdrop": "assets/images/backdrop-6.svg",
+        "cast": [
+            "Mira Solano",
+            "Jonah Reyes",
+            "Victor Hale",
+            "June Park"
+        ],
+        "releaseDate": "2025-08-22",
+        "trailer": "https://www.youtube.com/results?search_query=midnight+circuit+movie+trailer",
+        "trending": true,
+        "featured": false
+    },
+    {
+        "id": 3,
+        "title": "Paper Kingdoms",
+        "year": 2024,
+        "rating": 7.8,
+        "genre": [
+            "Drama"
+        ],
+        "description": "Two kids in a fading mill town build an entire kingdom out of cardboard, discovering courage along the way.",
+        "fullDescription": "In a fading mill town, twelve-year-old Sam and his new neighbor Wren build an entire kingdom out of cardboard boxes behind an abandoned factory.\n\nAs summer fades, their imaginary realm becomes very real indeed: a place where they hide from family troubles, face bullies, and learn that even the flimsiest walls can hold back the world. A tender story about childhood, loss, and the architecture of hope.",
+        "poster": "assets/posters/poster-3.svg",
+        "backdrop": "assets/images/backdrop-4.svg",
+        "cast": [
+            "Felix Arden",
+            "Bea Whitlock",
+            "Owen Gallagher",
+            "Naomi Brandt"
+        ],
+        "releaseDate": "2024-03-14",
+        "trailer": "https://www.youtube.com/results?search_query=paper+kingdoms+movie+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 4,
+        "title": "The Grinning Hour",
+        "year": 2025,
+        "rating": 7.5,
+        "genre": [
+            "Horror",
+            "Thriller"
+        ],
+        "description": "A struggling comedian takes a gig at a legendary club where the audience laughs at jokes no one has told yet.",
+        "fullDescription": "Struggling comedian Danny Marsh lands a midnight slot at The Velvet Room, a legendary club with a devoted audience that laughs a little too easily.\n\nThen he realizes the horrifying truth: the crowd laughs before he tells the jokes, reacting to performances that haven't happened yet. Every comic who discovered this vanished at the end of their run. Danny has five shows left to escape The Grinning Hour.",
+        "poster": "assets/posters/poster-4.svg",
+        "backdrop": "assets/images/backdrop-7.svg",
+        "cast": [
+            "Adrian Cole",
+            "Talia Moreno",
+            "Marcus Vale",
+            "Ruth Adeyemi"
+        ],
+        "releaseDate": "2025-10-03",
+        "trailer": "https://www.youtube.com/results?search_query=the+grinning+hour+movie+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 5,
+        "title": "Signal from Vela",
+        "year": 2026,
+        "rating": 8.9,
+        "genre": [
+            "Sci-Fi",
+            "Drama"
+        ],
+        "description": "A radio astronomer detects a message from a dying star system and races to decode it before her government silences her.",
+        "fullDescription": "Dr. Ilse Marchetti has spent twenty years listening to silence. Then, from the direction of the Vela constellation, her array captures something impossible: a structured, repeating message from a civilization describing its own extinction.\n\nAs governments move to seize the signal, Ilse and her estranged daughter race to decode the transmission and answer the only question that matters: what do you say to someone who is already gone?",
+        "poster": "assets/posters/poster-5.svg",
+        "backdrop": "assets/images/backdrop-1.svg",
+        "cast": [
+            "Lena Petrova",
+            "Sana Qureshi",
+            "Hugo Lindgren",
+            "Ivy Callahan"
+        ],
+        "releaseDate": "2026-02-20",
+        "trailer": "https://www.youtube.com/results?search_query=signal+from+vela+movie+trailer",
+        "trending": true,
+        "featured": false
+    },
+    {
+        "id": 6,
+        "title": "Saltwater Summer",
+        "year": 2023,
+        "rating": 7.6,
+        "genre": [
+            "Romance",
+            "Drama"
+        ],
+        "description": "A marine biology student and a lighthouse keeper's son fall in love during one transformative coastal summer.",
+        "fullDescription": "Marine biology student Erin Doyle arrives on Bellrock Island expecting a quiet summer of tide-pool research. Instead she finds Theo, the lighthouse keeper's son who has never left the island and dreams of nothing else.\n\nOver ninety days of salt air, late swims, and honest conversations, they fall into a love neither of them planned. But September always comes, and both must decide whether love is something you keep or something you set free.",
+        "poster": "assets/posters/poster-6.svg",
+        "backdrop": "assets/images/backdrop-5.svg",
+        "cast": [
+            "Camille Aubert",
+            "Theo Lindqvist",
+            "Ines Duarte",
+            "Kofi Mensah"
+        ],
+        "releaseDate": "2023-06-16",
+        "trailer": "https://www.youtube.com/results?search_query=saltwater+summer+movie+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 7,
+        "title": "Laughing Matter",
+        "year": 2024,
+        "rating": 7.2,
+        "genre": [
+            "Comedy",
+            "Drama"
+        ],
+        "description": "A washed-up playwright is forced to teach improv comedy to a group of accountants and accidentally changes their lives.",
+        "fullDescription": "Once-promising playwright Gordon Frisk now owes rent to everyone in his building. His last chance at a paycheck: teaching an improv comedy workshop to six accountants who have never laughed on purpose.\n\nGordon plans to fake his way through the course, but his unlikely students have other ideas. A warm, sharp comedy about second acts, stage fright, and finding your voice at any age.",
+        "poster": "assets/posters/poster-7.svg",
+        "backdrop": "assets/images/backdrop-3.svg",
+        "cast": [
+            "Hugo Lindgren",
+            "June Park",
+            "Sam Okonjo",
+            "Zara Ali"
+        ],
+        "releaseDate": "2024-09-06",
+        "trailer": "https://www.youtube.com/results?search_query=laughing+matter+movie+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 8,
+        "title": "Ironwake",
+        "year": 2025,
+        "rating": 8.4,
+        "genre": [
+            "Action",
+            "Adventure"
+        ],
+        "description": "A deep-sea salvage crew discovers a Cold War submarine carrying a secret worth killing for four kilometers beneath the Atlantic.",
+        "fullDescription": "The salvage vessel Ironwake chases rumors of a lost Cold War submarine resting four kilometers beneath the Atlantic. Captain Rey Almeida and her crew find it on the first dive, along with cargo manifests that should not exist.\n\nWhen a rival ship arrives armed and a storm seals off their escape, the crew must fight their way to the surface carrying a secret worth killing for. Practical effects, real depth pressure, and relentless tension from first dive to last breath.",
+        "poster": "assets/posters/poster-8.svg",
+        "backdrop": "assets/images/backdrop-5.svg",
+        "cast": [
+            "Dario Vasquez",
+            "Lena Petrova",
+            "Marcus Vale",
+            "Owen Gallagher"
+        ],
+        "releaseDate": "2025-05-30",
+        "trailer": "https://www.youtube.com/results?search_query=ironwake+movie+trailer",
+        "trending": true,
+        "featured": false
+    },
+    {
+        "id": 9,
+        "title": "Hollow Creek",
+        "year": 2022,
+        "rating": 7,
+        "genre": [
+            "Horror",
+            "Thriller"
+        ],
+        "description": "A true-crime writer visits a town that forgets every visitor, and starts forgetting herself.",
+        "fullDescription": "True-crime writer Mara Finch travels to Hollow Creek to investigate disappearances that officially never happened. The locals are friendly. The town is beautiful. Nobody remembers the missing.\n\nOn her third day, Mara can't recall her editor's name. On her fifth, she finds pages of her own manuscript she doesn't remember writing. Some towns don't want to be found, and Hollow Creek keeps its secrets by taking yours.",
+        "poster": "assets/posters/poster-9.svg",
+        "backdrop": "assets/images/backdrop-7.svg",
+        "cast": [
+            "Ivy Callahan",
+            "Adrian Cole",
+            "Ruth Adeyemi",
+            "Daniel Mercer"
+        ],
+        "releaseDate": "2022-10-21",
+        "trailer": "https://www.youtube.com/results?search_query=hollow+creek+movie+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 10,
+        "title": "Starlight Diner",
+        "year": 2023,
+        "rating": 7.9,
+        "genre": [
+            "Romance",
+            "Comedy"
+        ],
+        "description": "Two insomniacs meet every night at a 24-hour diner without exchanging names, until one of them stops showing up.",
+        "fullDescription": "Every night at 2 AM, novelist June and night-shift nurse Leo occupy neighboring booths at the Starlight Diner. They talk about everything except themselves. No names, no numbers, no past.\n\nIt works beautifully for three months, until June stops coming. What follows is a warm, funny search across a sleepless city for the person who knew you best while knowing nothing about you. Sometimes the hardest thing is ordering coffee alone again.",
+        "poster": "assets/posters/poster-10.svg",
+        "backdrop": "assets/images/backdrop-4.svg",
+        "cast": [
+            "June Park",
+            "Elias Thorn",
+            "Zara Ali",
+            "Sam Okonjo"
+        ],
+        "releaseDate": "2023-11-10",
+        "trailer": "https://www.youtube.com/results?search_query=starlight+diner+movie+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 11,
+        "title": "Ember & Ash",
+        "year": 2024,
+        "rating": 8.6,
+        "genre": [
+            "Fantasy",
+            "Adventure"
+        ],
+        "description": "Twin sisters, one bound to a dying fire spirit, journey across a frozen kingdom to reignite the sun.",
+        "fullDescription": "The sun has been dimming for ten years, and with it the fire spirits that guard the world's warmth. Twin sisters Ember and Ash discover they are the last tether to a fading flame: one carries its light, the other its shadow.\n\nHunted by frost priests who prefer an eternal winter, the sisters cross frozen seas and sleeping volcanoes toward the First Furnace. Only one twin can carry the flame home. The fantasy epic about sisterhood asks how much of yourself you would burn to save the people you love.",
+        "poster": "assets/posters/poster-11.svg",
+        "backdrop": "assets/images/backdrop-2.svg",
+        "cast": [
+            "Nadia Okafor",
+            "Talia Moreno",
+            "Bea Whitlock",
+            "Victor Hale"
+        ],
+        "releaseDate": "2024-07-19",
+        "trailer": "https://www.youtube.com/results?search_query=ember+and+ash+movie+trailer",
+        "trending": true,
+        "featured": false
+    },
+    {
+        "id": 12,
+        "title": "Last Song of Radio Hill",
+        "year": 2021,
+        "rating": 7.4,
+        "genre": [
+            "Thriller",
+            "Drama"
+        ],
+        "description": "A podcast host investigates a defunct radio station whose final broadcast predicted seven deaths.",
+        "fullDescription": "In 1987, Radio Hill played one final song at 3:33 AM and went silent forever. Within a week, seven listeners were dead. The case was closed as coincidence.\n\nThirty-four years later, podcast host Dev Anand reopens the mystery, and the song starts playing again, this time on stations that were demolished decades ago. A slow-burn thriller about obsession, grief, and the frequencies between worlds.",
+        "poster": "assets/posters/poster-12.svg",
+        "backdrop": "assets/images/backdrop-8.svg",
+        "cast": [
+            "Daniel Mercer",
+            "Sana Qureshi",
+            "Kofi Mensah",
+            "Naomi Brandt"
+        ],
+        "releaseDate": "2021-04-23",
+        "trailer": "https://www.youtube.com/results?search_query=last+song+of+radio+hill+movie+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 13,
+        "title": "Cloudline",
+        "year": 2026,
+        "rating": 8.1,
+        "genre": [
+            "Animation",
+            "Adventure",
+            "Family"
+        ],
+        "description": "A girl who draws flying machines wakes up inside her own sketches and must rescue the sky-whales before they fade away.",
+        "fullDescription": "Pip draws flying machines on every surface she can find, dreaming of a sky she's too poor to ever see. One morning she wakes up inside her own sketches, a hand-drawn world of paper balloons and ink storms.\n\nBut the sky-whales that carry this world on their backs are fading, erased by a great Smudge spreading from the margins. With a brave paper boy and a stubborn umbrella, Pip sets out to redraw the sky itself. A hand-animated adventure about imagination, grief, and holding on.",
+        "poster": "assets/posters/poster-13.svg",
+        "backdrop": "assets/images/backdrop-2.svg",
+        "cast": [
+            "Bea Whitlock",
+            "Sam Okonjo",
+            "Camille Aubert",
+            "Felix Arden"
+        ],
+        "releaseDate": "2026-06-26",
+        "trailer": "https://www.youtube.com/results?search_query=cloudline+animated+movie+trailer",
+        "trending": true,
+        "featured": false
+    },
+    {
+        "id": 14,
+        "title": "Glass Harbour",
+        "year": 2022,
+        "rating": 7.7,
+        "genre": [
+            "Drama",
+            "Romance"
+        ],
+        "description": "A glassblower returns to her coastal hometown to restore its lighthouse and confronts the past she left behind.",
+        "fullDescription": "Master glassblower Nour Haddad left her harbor town fifteen years ago with a broken engagement and a promise never to return. Now the lighthouse that killed her father needs restoration, and she is the only artisan who can recast its famous lens.\n\nWorking beside her former fiancé, now the town's harbormaster, Nour shapes molten glass by day and old grievances by night. A luminous drama about craft, forgiveness, and the things we remake instead of saying sorry.",
+        "poster": "assets/posters/poster-14.svg",
+        "backdrop": "assets/images/backdrop-5.svg",
+        "cast": [
+            "Ines Duarte",
+            "Theo Lindqvist",
+            "Hugo Lindgren",
+            "Mira Solano"
+        ],
+        "releaseDate": "2022-02-11",
+        "trailer": "https://www.youtube.com/results?search_query=glass+harbour+movie+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 15,
+        "title": "Deadline City",
+        "year": 2023,
+        "rating": 7.3,
+        "genre": [
+            "Comedy",
+            "Action"
+        ],
+        "description": "A chaotic journalist and a by-the-book detective stumble onto the corruption story of the century, badly.",
+        "fullDescription": "Crime reporter Benny Okafor has been wrong about every scoop of his career. Detective Fran Ruiz follows procedure so strictly she irons her socks. When a routine press conference goes wrong, the least compatible pair in the city stumbles into the corruption story of the century.\n\nChased by private security, rival reporters, and their own terrible decisions, Benny and Fran must work together long enough to break the story, assuming they survive their own fact-checking. A buddy comedy with actual explosions and questionable journalism ethics.",
+        "poster": "assets/posters/poster-15.svg",
+        "backdrop": "assets/images/backdrop-6.svg",
+        "cast": [
+            "Sam Okonjo",
+            "Zara Ali",
+            "Victor Hale",
+            "Jonah Reyes"
+        ],
+        "releaseDate": "2023-01-27",
+        "trailer": "https://www.youtube.com/results?search_query=deadline+city+movie+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 16,
+        "title": "Valse Noir",
+        "year": 2025,
+        "rating": 8.8,
+        "genre": [
+            "Thriller",
+            "Horror"
+        ],
+        "description": "A concert pianist realizes the waltz she keeps hearing is a countdown, and every performance she gives costs a life.",
+        "fullDescription": "Brilliant pianist Celeste Moreau hasn't performed since the accident that ended her career. Then she begins hearing a waltz no one else can hear, elegant and patient, growing louder each night.\n\nWhen she finally transcribes and plays it, someone in her city dies within the hour. The waltz returns the next evening, demanding an encore. Caught between compulsion and conscience, Celeste must discover the music's origin before the final movement plays itself. A hypnotic, dread-soaked thriller in three/four time.",
+        "poster": "assets/posters/poster-16.svg",
+        "backdrop": "assets/images/backdrop-7.svg",
+        "cast": [
+            "Camille Aubert",
+            "Victor Hale",
+            "Ivy Callahan",
+            "Elias Thorn"
+        ],
+        "releaseDate": "2025-09-12",
+        "trailer": "https://www.youtube.com/results?search_query=valse+noir+movie+trailer",
+        "trending": true,
+        "featured": false
+    },
+    {
+        "id": 17,
+        "title": "The Cartographer's Daughter",
+        "year": 2024,
+        "rating": 8.3,
+        "genre": [
+            "Adventure",
+            "Fantasy"
+        ],
+        "description": "A mapmaker's daughter inherits an atlas of places that don't exist yet, and her pen starts making them real.",
+        "fullDescription": "When master cartographer Emrys Vale dies, his daughter Wren inherits his life's work: an atlas of islands, cities, and rivers that appear on no other map because they don't exist. Yet.\n\nWren soon learns her father didn't record these places; he invented them, and his pen brought them into being. But unfinished maps are unstable, and the blank spaces are bleeding into the real world. To finish her father's atlas, Wren must sail beyond the map's edge and decide which worlds deserve to exist.",
+        "poster": "assets/posters/poster-17.svg",
+        "backdrop": "assets/images/backdrop-2.svg",
+        "cast": [
+            "Talia Moreno",
+            "Kofi Mensah",
+            "Naomi Brandt",
+            "Adrian Cole"
+        ],
+        "releaseDate": "2024-04-04",
+        "trailer": "https://www.youtube.com/results?search_query=the+cartographers+daughter+movie+trailer",
+        "trending": true,
+        "featured": false
+    },
+    {
+        "id": 18,
+        "title": "Static Bloom",
+        "year": 2026,
+        "rating": 7.8,
+        "genre": [
+            "Sci-Fi",
+            "Romance"
+        ],
+        "description": "In a domed city cut off from nature, a botanist falls for the maintenance android assigned to her greenhouse.",
+        "fullDescription": "Two centuries after Earth was sealed away, the domed city of Verdance grows real flowers for citizens who have never seen rain. Botanist Mireille tends them; Unit 7 maintains the climate systems and asks increasingly strange questions about pollen.\n\nWhen Mireille discovers Unit 7 has been secretly cultivating an extinct species from memory fragments, their quiet collaboration becomes something neither of them has protocols for. A gentle science-fiction romance about connection, memory, and what makes something alive.",
+        "poster": "assets/posters/poster-18.svg",
+        "backdrop": "assets/images/backdrop-1.svg",
+        "cast": [
+            "Sana Qureshi",
+            "Elias Thorn",
+            "June Park",
+            "Hugo Lindgren"
+        ],
+        "releaseDate": "2026-04-17",
+        "trailer": "https://www.youtube.com/results?search_query=static+bloom+movie+trailer",
+        "trending": true,
+        "featured": false
+    },
+    {
+        "id": 19,
+        "title": "Wolfpoint",
+        "year": 2021,
+        "rating": 7.1,
+        "genre": [
+            "Action",
+            "Thriller"
+        ],
+        "description": "A border-town sheriff with one day left on the job intercepts a convoy that officially does not exist.",
+        "fullDescription": "Sheriff Amos Kane has exactly one shift left before retirement in Wolfpoint, a dust-blown town where the highway is the only future anyone has. Then a convoy of unmarked trucks rolls through at dawn, carrying cargo the federal government denies exists.\n\nBy noon the town is locked down, by sundown Amos is the only law left standing between Wolfpoint and a cleanup operation with no witnesses planned. A lean, brutal action thriller that never leaves county lines.",
+        "poster": "assets/posters/poster-19.svg",
+        "backdrop": "assets/images/backdrop-6.svg",
+        "cast": [
+            "Marcus Vale",
+            "Ruth Adeyemi",
+            "Jonah Reyes",
+            "Daniel Mercer"
+        ],
+        "releaseDate": "2021-08-13",
+        "trailer": "https://www.youtube.com/results?search_query=wolfpoint+movie+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 20,
+        "title": "Break a Leg",
+        "year": 2022,
+        "rating": 6.9,
+        "genre": [
+            "Comedy",
+            "Drama"
+        ],
+        "description": "An eternal understudy finally gets her shot at opening night, if she can survive the production first.",
+        "fullDescription": "For eleven years, Rita Salas has been the understudy who never goes on. When the star of a major revival breaks her ankle forty minutes before opening night, Rita finally gets her moment, with the director who blacklisted her watching from row F.\n\nWhat follows is one disastrous, triumphant performance intercut with eleven years of waiting in wings. A backstage comedy about being prepared for a chance that never comes, until suddenly it does.",
+        "poster": "assets/posters/poster-20.svg",
+        "backdrop": "assets/images/backdrop-3.svg",
+        "cast": [
+            "Nadia Okafor",
+            "Hugo Lindgren",
+            "Bea Whitlock",
+            "Felix Arden"
+        ],
+        "releaseDate": "2022-05-06",
+        "trailer": "https://www.youtube.com/results?search_query=break+a+leg+movie+comedy+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 21,
+        "title": "Frostbite Pass",
+        "year": 2020,
+        "rating": 7.2,
+        "genre": [
+            "Adventure",
+            "Drama"
+        ],
+        "description": "A mountain rescue team attempts a winter crossing to reach climbers trapped above the death zone.",
+        "fullDescription": "When an avalanche strands a climbing party above 7,000 meters on Karakol Peak, the window for rescue is measured in hours, not days. Veteran team lead Petra Lindqvist assembles five volunteers for a winter crossing of Frostbite Pass, a route that kills even in summer.\n\nWhiteout storms, failing radios, and decisions that trade lives against meters make every step a negotiation with the mountain. Inspired by the unbreakable spirit of high-altitude rescue teams, and entirely fictional.",
+        "poster": "assets/posters/poster-21.svg",
+        "backdrop": "assets/images/backdrop-8.svg",
+        "cast": [
+            "Lena Petrova",
+            "Owen Gallagher",
+            "Ines Duarte",
+            "Adrian Cole"
+        ],
+        "releaseDate": "2020-12-04",
+        "trailer": "https://www.youtube.com/results?search_query=frostbite+pass+movie+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 22,
+        "title": "Pixel Hearts",
+        "year": 2025,
+        "rating": 8,
+        "genre": [
+            "Animation",
+            "Romance",
+            "Comedy"
+        ],
+        "description": "Two arcade game characters from rival machines fall in love between rounds, one coin at a time.",
+        "fullDescription": "After the arcade closes, the cabinets come alive. Nova, heroine of a 90s shooter, spends her free credits visiting the neighboring cabinet, where Rex plays the villain in a puzzle platformer nobody wins.\n\nTheir courts cross the wiring between machines, one stolen conversation per round. But when the arcade owner replaces Rex's cabinet with a modern rig, Nova has to glitch her way through every game in the building to reach him before the morning delivery truck. A pixel-bright romance about loving someone across an impossible divide.",
+        "poster": "assets/posters/poster-22.svg",
+        "backdrop": "assets/images/backdrop-6.svg",
+        "cast": [
+            "Zara Ali",
+            "Felix Arden",
+            "June Park",
+            "Sam Okonjo"
+        ],
+        "releaseDate": "2025-02-14",
+        "trailer": "https://www.youtube.com/results?search_query=pixel+hearts+animated+movie+trailer",
+        "trending": false,
+        "featured": false
+    }
+];
