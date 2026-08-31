@@ -8,531 +8,1298 @@
 window.CINEVERSE_MOVIES = [
     {
         "id": 1,
-        "title": "The Last Horizon",
-        "year": 2026,
-        "rating": 8.7,
+        "title": "Superman",
+        "year": 2025,
+        "rating": 7,
         "genre": [
             "Action",
-            "Sci-Fi",
-            "Adventure"
+            "Adventure",
+            "Science Fiction"
         ],
-        "description": "Humanity's final expedition launches beyond the edge of known space to find a new home before Earth's last resources run out.",
-        "fullDescription": "When Earth's ecosystems collapse faster than predicted, Commander Ava Reyes is chosen to lead the Odyssey, humanity's final expedition beyond the edge of known space. Her mission: find a habitable world before the last resources run out.\n\nWhat begins as a rescue voyage becomes a fight for the soul of the crew, as the ship's AI begins questioning whether mankind deserves a second chance. The Last Horizon is a sweeping tale of sacrifice, wonder, and the price of survival among the stars.",
-        "poster": "assets/posters/poster-1.svg",
-        "backdrop": "assets/images/backdrop-1.svg",
+        "description": "Superman begins a new chapter as he faces threats that challenge both his power and his ideals.",
+        "fullDescription": "James Gunn's Superman follows Clark Kent as he struggles to balance his Kryptonian heritage with his human identity. While protecting Metropolis, Superman finds himself challenged by powerful enemies and a world questioning what a hero should be.",
+        "poster": "assets/posters/poster-1.jpg",
+        "backdrop": "assets/images/backdrop-1.jpg",
         "cast": [
-            "Amara Chen",
-            "Dario Vasquez",
-            "Nadia Okafor",
-            "Elias Thorn"
+            "David Corenswet",
+            "Rachel Brosnahan",
+            "Nicholas Hoult",
+            "Edi Gathegi"
         ],
-        "releaseDate": "2026-05-10",
-        "trailer": "https://www.youtube.com/results?search_query=the+last+horizon+movie+trailer",
+        "releaseDate": "2025-07-11",
+        "trailer": "https://www.youtube.com/results?search_query=Superman+2025+official+trailer",
         "trending": true,
         "featured": true
     },
     {
         "id": 2,
-        "title": "Midnight Circuit",
+        "title": "Weapons",
         "year": 2025,
-        "rating": 8.2,
+        "rating": 7.4,
         "genre": [
-            "Action",
+            "Horror",
+            "Mystery",
             "Thriller"
         ],
-        "description": "A street racer is framed for a heist she never committed and must outrun both the police and the syndicate that set her up.",
-        "fullDescription": "Kira Vale rules the underground racing scene of Meridian City, but one midnight run turns deadly when her crew is framed for a multimillion-dollar heist they never committed.\n\nWith the police closing in and the real thieves hunting her down, Kira must rebuild her crew, expose the syndicate, and survive one final race where every road ends in betrayal.",
-        "poster": "assets/posters/poster-2.svg",
-        "backdrop": "assets/images/backdrop-6.svg",
+        "description": "A disturbing mystery begins when a group of children mysteriously disappears from a small community.",
+        "fullDescription": "Weapons is a psychological horror mystery centered on a strange disappearance that leaves a community searching for answers. As different stories begin to connect, the truth becomes increasingly disturbing.",
+        "poster": "assets/posters/poster-2.jpg",
+        "backdrop": "assets/images/backdrop-2.jpg",
         "cast": [
-            "Mira Solano",
-            "Jonah Reyes",
-            "Victor Hale",
-            "June Park"
+            "Julia Garner",
+            "Josh Brolin",
+            "Amy Madigan",
+            "Alden Ehrenreich"
         ],
-        "releaseDate": "2025-08-22",
-        "trailer": "https://www.youtube.com/results?search_query=midnight+circuit+movie+trailer",
+        "releaseDate": "2025-08-08",
+        "trailer": "https://www.youtube.com/results?search_query=Weapons+2025+official+trailer",
         "trending": true,
         "featured": false
     },
     {
         "id": 3,
-        "title": "Paper Kingdoms",
-        "year": 2024,
-        "rating": 7.8,
-        "genre": [
-            "Drama"
-        ],
-        "description": "Two kids in a fading mill town build an entire kingdom out of cardboard, discovering courage along the way.",
-        "fullDescription": "In a fading mill town, twelve-year-old Sam and his new neighbor Wren build an entire kingdom out of cardboard boxes behind an abandoned factory.\n\nAs summer fades, their imaginary realm becomes very real indeed: a place where they hide from family troubles, face bullies, and learn that even the flimsiest walls can hold back the world. A tender story about childhood, loss, and the architecture of hope.",
-        "poster": "assets/posters/poster-3.svg",
-        "backdrop": "assets/images/backdrop-4.svg",
-        "cast": [
-            "Felix Arden",
-            "Bea Whitlock",
-            "Owen Gallagher",
-            "Naomi Brandt"
-        ],
-        "releaseDate": "2024-03-14",
-        "trailer": "https://www.youtube.com/results?search_query=paper+kingdoms+movie+trailer",
-        "trending": false,
-        "featured": false
-    },
-    {
-        "id": 4,
-        "title": "The Grinning Hour",
+        "title": "Sinners",
         "year": 2025,
         "rating": 7.5,
         "genre": [
             "Horror",
+            "Drama",
             "Thriller"
         ],
-        "description": "A struggling comedian takes a gig at a legendary club where the audience laughs at jokes no one has told yet.",
-        "fullDescription": "Struggling comedian Danny Marsh lands a midnight slot at The Velvet Room, a legendary club with a devoted audience that laughs a little too easily.\n\nThen he realizes the horrifying truth: the crowd laughs before he tells the jokes, reacting to performances that haven't happened yet. Every comic who discovered this vanished at the end of their run. Danny has five shows left to escape The Grinning Hour.",
-        "poster": "assets/posters/poster-4.svg",
-        "backdrop": "assets/images/backdrop-7.svg",
+        "description": "Twin brothers return to their hometown and encounter a terrifying supernatural threat.",
+        "fullDescription": "Ryan Coogler's Sinners follows twin brothers who return to their Mississippi hometown hoping to start a new life. Their plans take a dark turn when they encounter a supernatural force connected to the community's history.",
+        "poster": "assets/posters/poster-3.jpg",
+        "backdrop": "assets/images/backdrop-3.jpg",
         "cast": [
-            "Adrian Cole",
-            "Talia Moreno",
-            "Marcus Vale",
-            "Ruth Adeyemi"
+            "Michael B. Jordan",
+            "Hailee Steinfeld",
+            "Miles Caton",
+            "Jack O'Connell"
         ],
-        "releaseDate": "2025-10-03",
-        "trailer": "https://www.youtube.com/results?search_query=the+grinning+hour+movie+trailer",
-        "trending": false,
+        "releaseDate": "2025-04-18",
+        "trailer": "https://www.youtube.com/results?search_query=Sinners+2025+official+trailer",
+        "trending": true,
+        "featured": false
+    },
+    {
+        "id": 4,
+        "title": "One Battle After Another",
+        "year": 2025,
+        "rating": 7.6,
+        "genre": [
+            "Action",
+            "Comedy",
+            "Thriller"
+        ],
+        "description": "A former revolutionary is forced back into action when his daughter is kidnapped.",
+        "fullDescription": "Paul Thomas Anderson's action thriller follows a former revolutionary who has settled into an unconventional life. When his daughter is taken, he must return to a world of political conflict and dangerous enemies.",
+        "poster": "assets/posters/poster-4.jpg",
+        "backdrop": "assets/images/backdrop-4.jpg",
+        "cast": [
+            "Leonardo DiCaprio",
+            "Sean Penn",
+            "Benicio Del Toro",
+            "Regina Hall"
+        ],
+        "releaseDate": "2025-09-26",
+        "trailer": "https://www.youtube.com/results?search_query=One+Battle+After+Another+official+trailer",
+        "trending": true,
         "featured": false
     },
     {
         "id": 5,
-        "title": "Signal from Vela",
-        "year": 2026,
-        "rating": 8.9,
+        "title": "Jurassic World: Rebirth",
+        "year": 2025,
+        "rating": 5.8,
         "genre": [
-            "Sci-Fi",
-            "Drama"
+            "Action",
+            "Adventure",
+            "Science Fiction"
         ],
-        "description": "A radio astronomer detects a message from a dying star system and races to decode it before her government silences her.",
-        "fullDescription": "Dr. Ilse Marchetti has spent twenty years listening to silence. Then, from the direction of the Vela constellation, her array captures something impossible: a structured, repeating message from a civilization describing its own extinction.\n\nAs governments move to seize the signal, Ilse and her estranged daughter race to decode the transmission and answer the only question that matters: what do you say to someone who is already gone?",
-        "poster": "assets/posters/poster-5.svg",
-        "backdrop": "assets/images/backdrop-1.svg",
+        "description": "A dangerous expedition enters an isolated region in search of dinosaur DNA.",
+        "fullDescription": "Five years after the events of Jurassic World Dominion, a team travels to isolated equatorial regions to collect genetic material from prehistoric creatures. Their mission quickly turns into a fight for survival.",
+        "poster": "assets/posters/poster-5.jpg",
+        "backdrop": "assets/images/backdrop-5.jpg",
         "cast": [
-            "Lena Petrova",
-            "Sana Qureshi",
-            "Hugo Lindgren",
-            "Ivy Callahan"
+            "Scarlett Johansson",
+            "Mahershala Ali",
+            "Jonathan Bailey",
+            "Rupert Friend"
         ],
-        "releaseDate": "2026-02-20",
-        "trailer": "https://www.youtube.com/results?search_query=signal+from+vela+movie+trailer",
+        "releaseDate": "2025-07-02",
+        "trailer": "https://www.youtube.com/results?search_query=Jurassic+World+Rebirth+official+trailer",
         "trending": true,
         "featured": false
     },
     {
         "id": 6,
-        "title": "Saltwater Summer",
-        "year": 2023,
-        "rating": 7.6,
+        "title": "Frankenstein",
+        "year": 2025,
+        "rating": 7.5,
         "genre": [
-            "Romance",
-            "Drama"
+            "Drama",
+            "Fantasy",
+            "Horror"
         ],
-        "description": "A marine biology student and a lighthouse keeper's son fall in love during one transformative coastal summer.",
-        "fullDescription": "Marine biology student Erin Doyle arrives on Bellrock Island expecting a quiet summer of tide-pool research. Instead she finds Theo, the lighthouse keeper's son who has never left the island and dreams of nothing else.\n\nOver ninety days of salt air, late swims, and honest conversations, they fall into a love neither of them planned. But September always comes, and both must decide whether love is something you keep or something you set free.",
-        "poster": "assets/posters/poster-6.svg",
-        "backdrop": "assets/images/backdrop-5.svg",
+        "description": "A brilliant but troubled scientist creates a creature that changes both their lives forever.",
+        "fullDescription": "Guillermo del Toro brings Mary Shelley's classic story to life in a visually ambitious adaptation about Victor Frankenstein and the creature he creates. The story explores ambition, loneliness, love and the consequences of playing with life.",
+        "poster": "assets/posters/poster-6.jpg",
+        "backdrop": "assets/images/backdrop-6.jpg",
         "cast": [
-            "Camille Aubert",
-            "Theo Lindqvist",
-            "Ines Duarte",
-            "Kofi Mensah"
+            "Oscar Isaac",
+            "Jacob Elordi",
+            "Mia Goth",
+            "Christoph Waltz"
         ],
-        "releaseDate": "2023-06-16",
-        "trailer": "https://www.youtube.com/results?search_query=saltwater+summer+movie+trailer",
+        "releaseDate": "2025-10-17",
+        "trailer": "https://www.youtube.com/results?search_query=Guillermo+del+Toro+Frankenstein+2025+official+trailer",
         "trending": false,
         "featured": false
     },
     {
         "id": 7,
-        "title": "Laughing Matter",
-        "year": 2024,
-        "rating": 7.2,
+        "title": "Happy Gilmore 2",
+        "year": 2025,
+        "rating": 6,
         "genre": [
             "Comedy",
-            "Drama"
+            "Sport"
         ],
-        "description": "A washed-up playwright is forced to teach improv comedy to a group of accountants and accidentally changes their lives.",
-        "fullDescription": "Once-promising playwright Gordon Frisk now owes rent to everyone in his building. His last chance at a paycheck: teaching an improv comedy workshop to six accountants who have never laughed on purpose.\n\nGordon plans to fake his way through the course, but his unlikely students have other ideas. A warm, sharp comedy about second acts, stage fright, and finding your voice at any age.",
-        "poster": "assets/posters/poster-7.svg",
-        "backdrop": "assets/images/backdrop-3.svg",
+        "description": "Happy Gilmore returns to the golf course for another outrageous challenge.",
+        "fullDescription": "Happy Gilmore returns years after his original golf adventures. When circumstances force him back onto the course, his unconventional style and explosive temper once again create chaos.",
+        "poster": "assets/posters/poster-7.jpg",
+        "backdrop": "assets/images/backdrop-7.jpg",
         "cast": [
-            "Hugo Lindgren",
-            "June Park",
-            "Sam Okonjo",
-            "Zara Ali"
+            "Adam Sandler",
+            "Julie Bowen",
+            "Christopher McDonald",
+            "Ben Stiller"
         ],
-        "releaseDate": "2024-09-06",
-        "trailer": "https://www.youtube.com/results?search_query=laughing+matter+movie+trailer",
+        "releaseDate": "2025-07-25",
+        "trailer": "https://www.youtube.com/results?search_query=Happy+Gilmore+2+official+trailer",
         "trending": false,
         "featured": false
     },
     {
         "id": 8,
-        "title": "Ironwake",
+        "title": "Thunderbolts*",
         "year": 2025,
-        "rating": 8.4,
+        "rating": 7.2,
         "genre": [
             "Action",
-            "Adventure"
+            "Adventure",
+            "Superhero"
         ],
-        "description": "A deep-sea salvage crew discovers a Cold War submarine carrying a secret worth killing for four kilometers beneath the Atlantic.",
-        "fullDescription": "The salvage vessel Ironwake chases rumors of a lost Cold War submarine resting four kilometers beneath the Atlantic. Captain Rey Almeida and her crew find it on the first dive, along with cargo manifests that should not exist.\n\nWhen a rival ship arrives armed and a storm seals off their escape, the crew must fight their way to the surface carrying a secret worth killing for. Practical effects, real depth pressure, and relentless tension from first dive to last breath.",
-        "poster": "assets/posters/poster-8.svg",
-        "backdrop": "assets/images/backdrop-5.svg",
+        "description": "A group of unconventional heroes and antiheroes are forced to work together.",
+        "fullDescription": "Marvel's Thunderbolts* brings together a group of damaged heroes and antiheroes who are given a dangerous mission. Their conflicting personalities make teamwork difficult, but their survival depends on working together.",
+        "poster": "assets/posters/poster-8.jpg",
+        "backdrop": "assets/images/backdrop-8.jpg",
         "cast": [
-            "Dario Vasquez",
-            "Lena Petrova",
-            "Marcus Vale",
-            "Owen Gallagher"
+            "Florence Pugh",
+            "Sebastian Stan",
+            "David Harbour",
+            "Wyatt Russell"
         ],
-        "releaseDate": "2025-05-30",
-        "trailer": "https://www.youtube.com/results?search_query=ironwake+movie+trailer",
-        "trending": true,
+        "releaseDate": "2025-05-02",
+        "trailer": "https://www.youtube.com/results?search_query=Thunderbolts+2025+official+trailer",
+        "trending": false,
         "featured": false
     },
     {
         "id": 9,
-        "title": "Hollow Creek",
-        "year": 2022,
-        "rating": 7,
+        "title": "Mission: Impossible - The Final Reckoning",
+        "year": 2025,
+        "rating": 7.1,
         "genre": [
-            "Horror",
+            "Action",
+            "Adventure",
             "Thriller"
         ],
-        "description": "A true-crime writer visits a town that forgets every visitor, and starts forgetting herself.",
-        "fullDescription": "True-crime writer Mara Finch travels to Hollow Creek to investigate disappearances that officially never happened. The locals are friendly. The town is beautiful. Nobody remembers the missing.\n\nOn her third day, Mara can't recall her editor's name. On her fifth, she finds pages of her own manuscript she doesn't remember writing. Some towns don't want to be found, and Hollow Creek keeps its secrets by taking yours.",
-        "poster": "assets/posters/poster-9.svg",
-        "backdrop": "assets/images/backdrop-7.svg",
+        "description": "Ethan Hunt faces his most dangerous mission as the world confronts an advanced artificial intelligence.",
+        "fullDescription": "Ethan Hunt and his IMF team race against time to stop a powerful artificial intelligence known as the Entity. With governments closing in and the future of global security at stake, Hunt must make impossible choices.",
+        "poster": "assets/posters/poster-9.jpg",
+        "backdrop": "assets/images/backdrop-9.jpg",
         "cast": [
-            "Ivy Callahan",
-            "Adrian Cole",
-            "Ruth Adeyemi",
-            "Daniel Mercer"
+            "Tom Cruise",
+            "Hayley Atwell",
+            "Ving Rhames",
+            "Simon Pegg"
         ],
-        "releaseDate": "2022-10-21",
-        "trailer": "https://www.youtube.com/results?search_query=hollow+creek+movie+trailer",
-        "trending": false,
+        "releaseDate": "2025-05-23",
+        "trailer": "https://www.youtube.com/results?search_query=Mission+Impossible+Final+Reckoning+official+trailer",
+        "trending": true,
         "featured": false
     },
     {
         "id": 10,
-        "title": "Starlight Diner",
-        "year": 2023,
-        "rating": 7.9,
+        "title": "F1: The Movie",
+        "year": 2025,
+        "rating": 7.7,
         "genre": [
-            "Romance",
-            "Comedy"
+            "Drama",
+            "Sport",
+            "Action"
         ],
-        "description": "Two insomniacs meet every night at a 24-hour diner without exchanging names, until one of them stops showing up.",
-        "fullDescription": "Every night at 2 AM, novelist June and night-shift nurse Leo occupy neighboring booths at the Starlight Diner. They talk about everything except themselves. No names, no numbers, no past.\n\nIt works beautifully for three months, until June stops coming. What follows is a warm, funny search across a sleepless city for the person who knew you best while knowing nothing about you. Sometimes the hardest thing is ordering coffee alone again.",
-        "poster": "assets/posters/poster-10.svg",
-        "backdrop": "assets/images/backdrop-4.svg",
+        "description": "A former Formula One driver returns to racing to mentor a young teammate.",
+        "fullDescription": "Brad Pitt stars as a former Formula One driver who returns to the sport after years away. He joins a struggling team and becomes the mentor of a talented young driver while confronting the dangers and pressures of elite racing.",
+        "poster": "assets/posters/poster-10.jpg",
+        "backdrop": "assets/images/backdrop-10.jpg",
         "cast": [
-            "June Park",
-            "Elias Thorn",
-            "Zara Ali",
-            "Sam Okonjo"
+            "Brad Pitt",
+            "Damson Idris",
+            "Javier Bardem",
+            "Kerry Condon"
         ],
-        "releaseDate": "2023-11-10",
-        "trailer": "https://www.youtube.com/results?search_query=starlight+diner+movie+trailer",
-        "trending": false,
+        "releaseDate": "2025-06-27",
+        "trailer": "https://www.youtube.com/results?search_query=F1+The+Movie+2025+official+trailer",
+        "trending": true,
         "featured": false
     },
     {
         "id": 11,
-        "title": "Ember & Ash",
-        "year": 2024,
-        "rating": 8.6,
+        "title": "The Fantastic Four: First Steps",
+        "year": 2025,
+        "rating": 6.8,
         "genre": [
-            "Fantasy",
-            "Adventure"
+            "Action",
+            "Adventure",
+            "Science Fiction"
         ],
-        "description": "Twin sisters, one bound to a dying fire spirit, journey across a frozen kingdom to reignite the sun.",
-        "fullDescription": "The sun has been dimming for ten years, and with it the fire spirits that guard the world's warmth. Twin sisters Ember and Ash discover they are the last tether to a fading flame: one carries its light, the other its shadow.\n\nHunted by frost priests who prefer an eternal winter, the sisters cross frozen seas and sleeping volcanoes toward the First Furnace. Only one twin can carry the flame home. The fantasy epic about sisterhood asks how much of yourself you would burn to save the people you love.",
-        "poster": "assets/posters/poster-11.svg",
-        "backdrop": "assets/images/backdrop-2.svg",
+        "description": "Marvel's First Family must protect Earth from the cosmic threat of Galactus.",
+        "fullDescription": "Set in a retro-futuristic 1960s-inspired world, the Fantastic Four face their greatest challenge when Galactus arrives to consume Earth. Reed, Sue, Johnny and Ben must protect their planet while holding their family together.",
+        "poster": "assets/posters/poster-11.jpg",
+        "backdrop": "assets/images/backdrop-11.jpg",
         "cast": [
-            "Nadia Okafor",
-            "Talia Moreno",
-            "Bea Whitlock",
-            "Victor Hale"
+            "Pedro Pascal",
+            "Vanessa Kirby",
+            "Joseph Quinn",
+            "Ebon Moss-Bachrach"
         ],
-        "releaseDate": "2024-07-19",
-        "trailer": "https://www.youtube.com/results?search_query=ember+and+ash+movie+trailer",
+        "releaseDate": "2025-07-25",
+        "trailer": "https://www.youtube.com/results?search_query=Fantastic+Four+First+Steps+official+trailer",
         "trending": true,
         "featured": false
     },
     {
         "id": 12,
-        "title": "Last Song of Radio Hill",
-        "year": 2021,
-        "rating": 7.4,
+        "title": "How to Train Your Dragon",
+        "year": 2025,
+        "rating": 7.7,
         "genre": [
-            "Thriller",
-            "Drama"
-        ],
-        "description": "A podcast host investigates a defunct radio station whose final broadcast predicted seven deaths.",
-        "fullDescription": "In 1987, Radio Hill played one final song at 3:33 AM and went silent forever. Within a week, seven listeners were dead. The case was closed as coincidence.\n\nThirty-four years later, podcast host Dev Anand reopens the mystery, and the song starts playing again, this time on stations that were demolished decades ago. A slow-burn thriller about obsession, grief, and the frequencies between worlds.",
-        "poster": "assets/posters/poster-12.svg",
-        "backdrop": "assets/images/backdrop-8.svg",
-        "cast": [
-            "Daniel Mercer",
-            "Sana Qureshi",
-            "Kofi Mensah",
-            "Naomi Brandt"
-        ],
-        "releaseDate": "2021-04-23",
-        "trailer": "https://www.youtube.com/results?search_query=last+song+of+radio+hill+movie+trailer",
-        "trending": false,
-        "featured": false
-    },
-    {
-        "id": 13,
-        "title": "Cloudline",
-        "year": 2026,
-        "rating": 8.1,
-        "genre": [
-            "Animation",
             "Adventure",
+            "Fantasy",
             "Family"
         ],
-        "description": "A girl who draws flying machines wakes up inside her own sketches and must rescue the sky-whales before they fade away.",
-        "fullDescription": "Pip draws flying machines on every surface she can find, dreaming of a sky she's too poor to ever see. One morning she wakes up inside her own sketches, a hand-drawn world of paper balloons and ink storms.\n\nBut the sky-whales that carry this world on their backs are fading, erased by a great Smudge spreading from the margins. With a brave paper boy and a stubborn umbrella, Pip sets out to redraw the sky itself. A hand-animated adventure about imagination, grief, and holding on.",
-        "poster": "assets/posters/poster-13.svg",
-        "backdrop": "assets/images/backdrop-2.svg",
+        "description": "A young Viking forms an unexpected friendship with a dragon and changes his world.",
+        "fullDescription": "Hiccup is an inventive young Viking who struggles to fit into a culture that fears dragons. After forming an unlikely friendship with Toothless, he discovers that humans and dragons may have more in common than anyone believes.",
+        "poster": "assets/posters/poster-12.jpg",
+        "backdrop": "assets/images/backdrop-12.jpg",
         "cast": [
-            "Bea Whitlock",
-            "Sam Okonjo",
-            "Camille Aubert",
-            "Felix Arden"
+            "Mason Thames",
+            "Nico Parker",
+            "Gerard Butler",
+            "Nick Frost"
         ],
-        "releaseDate": "2026-06-26",
-        "trailer": "https://www.youtube.com/results?search_query=cloudline+animated+movie+trailer",
+        "releaseDate": "2025-06-13",
+        "trailer": "https://www.youtube.com/results?search_query=How+to+Train+Your+Dragon+2025+official+trailer",
         "trending": true,
         "featured": false
     },
     {
-        "id": 14,
-        "title": "Glass Harbour",
-        "year": 2022,
-        "rating": 7.7,
+        "id": 13,
+        "title": "Lilo & Stitch",
+        "year": 2025,
+        "rating": 6.7,
         "genre": [
-            "Drama",
-            "Romance"
+            "Adventure",
+            "Comedy",
+            "Family"
         ],
-        "description": "A glassblower returns to her coastal hometown to restore its lighthouse and confronts the past she left behind.",
-        "fullDescription": "Master glassblower Nour Haddad left her harbor town fifteen years ago with a broken engagement and a promise never to return. Now the lighthouse that killed her father needs restoration, and she is the only artisan who can recast its famous lens.\n\nWorking beside her former fiancé, now the town's harbormaster, Nour shapes molten glass by day and old grievances by night. A luminous drama about craft, forgiveness, and the things we remake instead of saying sorry.",
-        "poster": "assets/posters/poster-14.svg",
-        "backdrop": "assets/images/backdrop-5.svg",
+        "description": "A lonely Hawaiian girl adopts an unusual alien who helps bring her family together.",
+        "fullDescription": "Lilo is a young Hawaiian girl who adopts what she believes is a strange dog. Stitch is actually an escaped alien experiment, and their friendship becomes a powerful story about family, belonging and acceptance.",
+        "poster": "assets/posters/poster-13.jpg",
+        "backdrop": "assets/images/backdrop-13.jpg",
         "cast": [
-            "Ines Duarte",
-            "Theo Lindqvist",
-            "Hugo Lindgren",
-            "Mira Solano"
+            "Maia Kealoha",
+            "Sydney Agudong",
+            "Chris Sanders",
+            "Zach Galifianakis"
         ],
-        "releaseDate": "2022-02-11",
-        "trailer": "https://www.youtube.com/results?search_query=glass+harbour+movie+trailer",
+        "releaseDate": "2025-05-23",
+        "trailer": "https://www.youtube.com/results?search_query=Lilo+and+Stitch+2025+official+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 14,
+        "title": "A Minecraft Movie",
+        "year": 2025,
+        "rating": 5.6,
+        "genre": [
+            "Adventure",
+            "Comedy",
+            "Fantasy"
+        ],
+        "description": "Four unlikely heroes are pulled into a strange cubic world where imagination becomes reality.",
+        "fullDescription": "Four misfits are transported through a mysterious portal into the block-shaped world of Minecraft. To return home, they must learn how the strange world works and complete an unexpected adventure with a legendary crafter.",
+        "poster": "assets/posters/poster-14.jpg",
+        "backdrop": "assets/images/backdrop-14.jpg",
+        "cast": [
+            "Jack Black",
+            "Jason Momoa",
+            "Emma Myers",
+            "Danielle Brooks"
+        ],
+        "releaseDate": "2025-04-04",
+        "trailer": "https://www.youtube.com/results?search_query=A+Minecraft+Movie+official+trailer",
         "trending": false,
         "featured": false
     },
     {
         "id": 15,
-        "title": "Deadline City",
-        "year": 2023,
-        "rating": 7.3,
+        "title": "Demon Slayer: Infinity Castle",
+        "year": 2025,
+        "rating": 8.4,
         "genre": [
-            "Comedy",
-            "Action"
+            "Animation",
+            "Action",
+            "Fantasy"
         ],
-        "description": "A chaotic journalist and a by-the-book detective stumble onto the corruption story of the century, badly.",
-        "fullDescription": "Crime reporter Benny Okafor has been wrong about every scoop of his career. Detective Fran Ruiz follows procedure so strictly she irons her socks. When a routine press conference goes wrong, the least compatible pair in the city stumbles into the corruption story of the century.\n\nChased by private security, rival reporters, and their own terrible decisions, Benny and Fran must work together long enough to break the story, assuming they survive their own fact-checking. A buddy comedy with actual explosions and questionable journalism ethics.",
-        "poster": "assets/posters/poster-15.svg",
-        "backdrop": "assets/images/backdrop-6.svg",
+        "description": "Tanjiro and the Demon Slayer Corps enter the terrifying Infinity Castle for their final battle.",
+        "fullDescription": "The Demon Slayer Corps is drawn into Muzan Kibutsuji's Infinity Castle. Tanjiro and the Hashira face powerful Upper Rank demons as the final battle against Muzan begins.",
+        "poster": "assets/posters/poster-15.jpg",
+        "backdrop": "assets/images/backdrop-15.jpg",
         "cast": [
-            "Sam Okonjo",
-            "Zara Ali",
-            "Victor Hale",
-            "Jonah Reyes"
+            "Natsuki Hanae",
+            "Hiro Shimono",
+            "Akari Kito",
+            "Hiroshi Kamiya"
         ],
-        "releaseDate": "2023-01-27",
-        "trailer": "https://www.youtube.com/results?search_query=deadline+city+movie+trailer",
-        "trending": false,
+        "releaseDate": "2025-07-18",
+        "trailer": "https://www.youtube.com/results?search_query=Demon+Slayer+Infinity+Castle+official+trailer",
+        "trending": true,
         "featured": false
     },
     {
         "id": 16,
-        "title": "Valse Noir",
+        "title": "Zootopia 2",
         "year": 2025,
-        "rating": 8.8,
+        "rating": 7.4,
         "genre": [
-            "Thriller",
-            "Horror"
+            "Animation",
+            "Adventure",
+            "Comedy"
         ],
-        "description": "A concert pianist realizes the waltz she keeps hearing is a countdown, and every performance she gives costs a life.",
-        "fullDescription": "Brilliant pianist Celeste Moreau hasn't performed since the accident that ended her career. Then she begins hearing a waltz no one else can hear, elegant and patient, growing louder each night.\n\nWhen she finally transcribes and plays it, someone in her city dies within the hour. The waltz returns the next evening, demanding an encore. Caught between compulsion and conscience, Celeste must discover the music's origin before the final movement plays itself. A hypnotic, dread-soaked thriller in three/four time.",
-        "poster": "assets/posters/poster-16.svg",
-        "backdrop": "assets/images/backdrop-7.svg",
+        "description": "Judy Hopps and Nick Wilde investigate a new mystery that shakes the city of Zootopia.",
+        "fullDescription": "Detective Judy Hopps and Nick Wilde return for another adventure in Zootopia. Their latest case introduces a mysterious reptile to the city and forces the partners to investigate a new threat while confronting old divisions.",
+        "poster": "assets/posters/poster-16.jpg",
+        "backdrop": "assets/images/backdrop-16.jpg",
         "cast": [
-            "Camille Aubert",
-            "Victor Hale",
-            "Ivy Callahan",
-            "Elias Thorn"
+            "Ginnifer Goodwin",
+            "Jason Bateman",
+            "Ke Huy Quan",
+            "Fortune Feimster"
         ],
-        "releaseDate": "2025-09-12",
-        "trailer": "https://www.youtube.com/results?search_query=valse+noir+movie+trailer",
+        "releaseDate": "2025-11-26",
+        "trailer": "https://www.youtube.com/results?search_query=Zootopia+2+official+trailer",
         "trending": true,
         "featured": false
     },
     {
         "id": 17,
-        "title": "The Cartographer's Daughter",
-        "year": 2024,
-        "rating": 8.3,
+        "title": "Avatar: Fire and Ash",
+        "year": 2025,
+        "rating": 7.5,
         "genre": [
+            "Science Fiction",
             "Adventure",
-            "Fantasy"
+            "Action"
         ],
-        "description": "A mapmaker's daughter inherits an atlas of places that don't exist yet, and her pen starts making them real.",
-        "fullDescription": "When master cartographer Emrys Vale dies, his daughter Wren inherits his life's work: an atlas of islands, cities, and rivers that appear on no other map because they don't exist. Yet.\n\nWren soon learns her father didn't record these places; he invented them, and his pen brought them into being. But unfinished maps are unstable, and the blank spaces are bleeding into the real world. To finish her father's atlas, Wren must sail beyond the map's edge and decide which worlds deserve to exist.",
-        "poster": "assets/posters/poster-17.svg",
-        "backdrop": "assets/images/backdrop-2.svg",
+        "description": "The Sully family faces new challenges and a dangerous new clan on Pandora.",
+        "fullDescription": "The next chapter of the Avatar saga continues the story of the Sully family on Pandora. As new threats emerge, Jake and Neytiri must protect their family while confronting a new Na'vi culture with its own powerful beliefs and conflicts.",
+        "poster": "assets/posters/poster-17.jpg",
+        "backdrop": "assets/images/backdrop-17.jpg",
         "cast": [
-            "Talia Moreno",
-            "Kofi Mensah",
-            "Naomi Brandt",
-            "Adrian Cole"
+            "Sam Worthington",
+            "Zoe Saldana",
+            "Sigourney Weaver",
+            "Stephen Lang"
         ],
-        "releaseDate": "2024-04-04",
-        "trailer": "https://www.youtube.com/results?search_query=the+cartographers+daughter+movie+trailer",
+        "releaseDate": "2025-12-19",
+        "trailer": "https://www.youtube.com/results?search_query=Avatar+Fire+and+Ash+official+trailer",
         "trending": true,
         "featured": false
     },
     {
         "id": 18,
-        "title": "Static Bloom",
-        "year": 2026,
-        "rating": 7.8,
+        "title": "Wicked: For Good",
+        "year": 2025,
+        "rating": 6.6,
         "genre": [
-            "Sci-Fi",
-            "Romance"
+            "Fantasy",
+            "Musical",
+            "Drama"
         ],
-        "description": "In a domed city cut off from nature, a botanist falls for the maintenance android assigned to her greenhouse.",
-        "fullDescription": "Two centuries after Earth was sealed away, the domed city of Verdance grows real flowers for citizens who have never seen rain. Botanist Mireille tends them; Unit 7 maintains the climate systems and asks increasingly strange questions about pollen.\n\nWhen Mireille discovers Unit 7 has been secretly cultivating an extinct species from memory fragments, their quiet collaboration becomes something neither of them has protocols for. A gentle science-fiction romance about connection, memory, and what makes something alive.",
-        "poster": "assets/posters/poster-18.svg",
-        "backdrop": "assets/images/backdrop-1.svg",
+        "description": "Elphaba and Glinda face the consequences of their choices as their paths move further apart.",
+        "fullDescription": "The second chapter of the Wicked story follows Elphaba and Glinda as their friendship is tested by political power, public opinion and their different visions for Oz. Their choices lead them toward the legendary events that define their futures.",
+        "poster": "assets/posters/poster-18.jpg",
+        "backdrop": "assets/images/backdrop-18.jpg",
         "cast": [
-            "Sana Qureshi",
-            "Elias Thorn",
-            "June Park",
-            "Hugo Lindgren"
+            "Cynthia Erivo",
+            "Ariana Grande",
+            "Jonathan Bailey",
+            "Jeff Goldblum"
         ],
-        "releaseDate": "2026-04-17",
-        "trailer": "https://www.youtube.com/results?search_query=static+bloom+movie+trailer",
-        "trending": true,
+        "releaseDate": "2025-11-21",
+        "trailer": "https://www.youtube.com/results?search_query=Wicked+For+Good+official+trailer",
+        "trending": false,
         "featured": false
     },
     {
         "id": 19,
-        "title": "Wolfpoint",
-        "year": 2021,
-        "rating": 7.1,
+        "title": "The Conjuring: Last Rites",
+        "year": 2025,
+        "rating": 6.2,
         "genre": [
-            "Action",
+            "Horror",
+            "Mystery",
             "Thriller"
         ],
-        "description": "A border-town sheriff with one day left on the job intercepts a convoy that officially does not exist.",
-        "fullDescription": "Sheriff Amos Kane has exactly one shift left before retirement in Wolfpoint, a dust-blown town where the highway is the only future anyone has. Then a convoy of unmarked trucks rolls through at dawn, carrying cargo the federal government denies exists.\n\nBy noon the town is locked down, by sundown Amos is the only law left standing between Wolfpoint and a cleanup operation with no witnesses planned. A lean, brutal action thriller that never leaves county lines.",
-        "poster": "assets/posters/poster-19.svg",
-        "backdrop": "assets/images/backdrop-6.svg",
+        "description": "Ed and Lorraine Warren return for one final terrifying supernatural case.",
+        "fullDescription": "Paranormal investigators Ed and Lorraine Warren face one last case involving mysterious supernatural forces. Their investigation brings them into a dangerous confrontation with an entity unlike anything they have faced before.",
+        "poster": "assets/posters/poster-19.jpg",
+        "backdrop": "assets/images/backdrop-19.jpg",
         "cast": [
-            "Marcus Vale",
-            "Ruth Adeyemi",
-            "Jonah Reyes",
-            "Daniel Mercer"
+            "Vera Farmiga",
+            "Patrick Wilson",
+            "Mia Tomlinson",
+            "Ben Hardy"
         ],
-        "releaseDate": "2021-08-13",
-        "trailer": "https://www.youtube.com/results?search_query=wolfpoint+movie+trailer",
-        "trending": false,
+        "releaseDate": "2025-09-05",
+        "trailer": "https://www.youtube.com/results?search_query=Conjuring+Last+Rites+official+trailer",
+        "trending": true,
         "featured": false
     },
     {
         "id": 20,
-        "title": "Break a Leg",
-        "year": 2022,
-        "rating": 6.9,
+        "title": "Final Destination: Bloodlines",
+        "year": 2025,
+        "rating": 6.7,
         "genre": [
-            "Comedy",
-            "Drama"
+            "Horror",
+            "Thriller",
+            "Mystery"
         ],
-        "description": "An eternal understudy finally gets her shot at opening night, if she can survive the production first.",
-        "fullDescription": "For eleven years, Rita Salas has been the understudy who never goes on. When the star of a major revival breaks her ankle forty minutes before opening night, Rita finally gets her moment, with the director who blacklisted her watching from row F.\n\nWhat follows is one disastrous, triumphant performance intercut with eleven years of waiting in wings. A backstage comedy about being prepared for a chance that never comes, until suddenly it does.",
-        "poster": "assets/posters/poster-20.svg",
-        "backdrop": "assets/images/backdrop-3.svg",
+        "description": "A young woman discovers that her family is trapped in a deadly cycle that cannot be escaped.",
+        "fullDescription": "A college student experiences a recurring nightmare that reveals a terrifying connection to her family's past. She returns home searching for answers and discovers that Death may be coming for her family one person at a time.",
+        "poster": "assets/posters/poster-20.jpg",
+        "backdrop": "assets/images/backdrop-20.jpg",
         "cast": [
-            "Nadia Okafor",
-            "Hugo Lindgren",
-            "Bea Whitlock",
-            "Felix Arden"
+            "Kaitlyn Santa Juana",
+            "Teo Briones",
+            "Rya Kihlstedt",
+            "Richard Harmon"
         ],
-        "releaseDate": "2022-05-06",
-        "trailer": "https://www.youtube.com/results?search_query=break+a+leg+movie+comedy+trailer",
-        "trending": false,
+        "releaseDate": "2025-05-16",
+        "trailer": "https://www.youtube.com/results?search_query=Final+Destination+Bloodlines+official+trailer",
+        "trending": true,
         "featured": false
     },
     {
         "id": 21,
-        "title": "Frostbite Pass",
-        "year": 2020,
-        "rating": 7.2,
+        "title": "28 Years Later",
+        "year": 2025,
+        "rating": 6.7,
         "genre": [
-            "Adventure",
+            "Horror",
+            "Thriller",
             "Drama"
         ],
-        "description": "A mountain rescue team attempts a winter crossing to reach climbers trapped above the death zone.",
-        "fullDescription": "When an avalanche strands a climbing party above 7,000 meters on Karakol Peak, the window for rescue is measured in hours, not days. Veteran team lead Petra Lindqvist assembles five volunteers for a winter crossing of Frostbite Pass, a route that kills even in summer.\n\nWhiteout storms, failing radios, and decisions that trade lives against meters make every step a negotiation with the mountain. Inspired by the unbreakable spirit of high-altitude rescue teams, and entirely fictional.",
-        "poster": "assets/posters/poster-21.svg",
-        "backdrop": "assets/images/backdrop-8.svg",
+        "description": "Decades after a devastating virus outbreak, survivors struggle to live in a dangerous new world.",
+        "fullDescription": "Nearly three decades after the Rage virus escaped from a biological weapons laboratory, isolated communities attempt to survive in a world transformed by the outbreak. A young man's journey reveals disturbing truths about what humanity has become.",
+        "poster": "assets/posters/poster-21.jpg",
+        "backdrop": "assets/images/backdrop-21.jpg",
         "cast": [
-            "Lena Petrova",
-            "Owen Gallagher",
-            "Ines Duarte",
-            "Adrian Cole"
+            "Jodie Comer",
+            "Aaron Taylor-Johnson",
+            "Jack O'Connell",
+            "Ralph Fiennes"
         ],
-        "releaseDate": "2020-12-04",
-        "trailer": "https://www.youtube.com/results?search_query=frostbite+pass+movie+trailer",
+        "releaseDate": "2025-06-20",
+        "trailer": "https://www.youtube.com/results?search_query=28+Years+Later+official+trailer",
         "trending": false,
         "featured": false
     },
     {
         "id": 22,
-        "title": "Pixel Hearts",
+        "title": "The Black Phone 2",
         "year": 2025,
-        "rating": 8,
+        "rating": 6.6,
         "genre": [
-            "Animation",
-            "Romance",
-            "Comedy"
+            "Horror",
+            "Thriller",
+            "Supernatural"
         ],
-        "description": "Two arcade game characters from rival machines fall in love between rounds, one coin at a time.",
-        "fullDescription": "After the arcade closes, the cabinets come alive. Nova, heroine of a 90s shooter, spends her free credits visiting the neighboring cabinet, where Rex plays the villain in a puzzle platformer nobody wins.\n\nTheir courts cross the wiring between machines, one stolen conversation per round. But when the arcade owner replaces Rex's cabinet with a modern rig, Nova has to glitch her way through every game in the building to reach him before the morning delivery truck. A pixel-bright romance about loving someone across an impossible divide.",
-        "poster": "assets/posters/poster-22.svg",
-        "backdrop": "assets/images/backdrop-6.svg",
+        "description": "Finney and Gwen face another terrifying chapter connected to the Grabber.",
+        "fullDescription": "Years after surviving the Grabber, Finney and Gwen continue trying to rebuild their lives. When terrifying visions return, the siblings realize that the nightmare they thought was over may not have ended.",
+        "poster": "assets/posters/poster-22.jpg",
+        "backdrop": "assets/images/backdrop-22.jpg",
         "cast": [
-            "Zara Ali",
-            "Felix Arden",
-            "June Park",
-            "Sam Okonjo"
+            "Ethan Hawke",
+            "Mason Thames",
+            "Madeleine McGraw",
+            "Demián Bichir"
+        ],
+        "releaseDate": "2025-10-17",
+        "trailer": "https://www.youtube.com/results?search_query=Black+Phone+2+official+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 23,
+        "title": "M3GAN 2.0",
+        "year": 2025,
+        "rating": 7.2,
+        "genre": [
+            "Science Fiction",
+            "Action",
+            "Thriller"
+        ],
+        "description": "M3GAN returns when a powerful military robot threatens to turn advanced artificial intelligence into a deadly weapon.",
+        "fullDescription": "After the technology behind M3GAN is stolen and transformed into a military weapon called Amelia, Gemma realizes that she may need to bring M3GAN back. The upgraded artificial intelligence faces a dangerous new opponent while questions about technology and control become increasingly serious.",
+        "poster": "assets/posters/poster-23.jpg",
+        "backdrop": "assets/images/backdrop-23.jpg",
+        "cast": [
+            "Allison Williams",
+            "Violet McGraw",
+            "Amie Donald",
+            "Ivanna Sakhno"
+        ],
+        "releaseDate": "2025-06-25",
+        "trailer": "https://www.youtube.com/results?search_query=M3GAN+2.0+official+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 24,
+        "title": "The Amateur",
+        "year": 2025,
+        "rating": 6.7,
+        "genre": [
+            "Thriller",
+            "Action"
+        ],
+        "description": "A brilliant CIA decoder takes matters into his own hands after a devastating personal loss.",
+        "fullDescription": "After his wife is killed in a terrorist attack, a brilliant but introverted CIA decoder becomes frustrated when his superiors refuse to act. He decides to train himself and pursue those responsible, putting his intelligence skills to the ultimate test.",
+        "poster": "assets/posters/poster-24.jpg",
+        "backdrop": "assets/images/backdrop-24.jpg",
+        "cast": [
+            "Rami Malek",
+            "Laurence Fishburne",
+            "Rachel Brosnahan",
+            "Holt McCallany"
+        ],
+        "releaseDate": "2025-04-09",
+        "trailer": "https://www.youtube.com/results?search_query=The+Amateur+2025+official+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 25,
+        "title": "Captain America: Brave New World",
+        "year": 2025,
+        "rating": 6,
+        "genre": [
+            "Action",
+            "Science Fiction",
+            "Thriller"
+        ],
+        "description": "Sam Wilson becomes involved in an international crisis after meeting the newly elected U.S. president.",
+        "fullDescription": "Sam Wilson has officially taken up the mantle of Captain America. After meeting President Thaddeus Ross, he becomes caught in an international incident and must uncover a dangerous conspiracy before it creates a global crisis.",
+        "poster": "assets/posters/poster-25.jpg",
+        "backdrop": "assets/images/backdrop-25.jpg",
+        "cast": [
+            "Anthony Mackie",
+            "Harrison Ford",
+            "Danny Ramirez",
+            "Shira Haas"
         ],
         "releaseDate": "2025-02-14",
-        "trailer": "https://www.youtube.com/results?search_query=pixel+hearts+animated+movie+trailer",
+        "trailer": "https://www.youtube.com/results?search_query=Captain+America+Brave+New+World+official+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 26,
+        "title": "The Accountant 2",
+        "year": 2025,
+        "rating": 7.4,
+        "genre": [
+            "Action",
+            "Crime",
+            "Thriller"
+        ],
+        "description": "Christian Wolff returns to solve a dangerous murder mystery alongside his highly skilled brother.",
+        "fullDescription": "When an old acquaintance is murdered, Christian Wolff is drawn into another dangerous investigation. He recruits his brother Brax and works with Marybeth Medina to uncover a deadly conspiracy that puts them all in the sights of ruthless killers.",
+        "poster": "assets/posters/poster-26.jpg",
+        "backdrop": "assets/images/backdrop-26.jpg",
+        "cast": [
+            "Ben Affleck",
+            "Jon Bernthal",
+            "Cynthia Addai-Robinson",
+            "J.K. Simmons"
+        ],
+        "releaseDate": "2025-04-23",
+        "trailer": "https://www.youtube.com/results?search_query=The+Accountant+2+official+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 27,
+        "title": "Ballerina",
+        "year": 2025,
+        "rating": 7,
+        "genre": [
+            "Action",
+            "Thriller"
+        ],
+        "description": "A trained assassin seeks revenge against the people responsible for destroying her family.",
+        "fullDescription": "Set within the world of John Wick, Eve Macarro has been trained in the traditions of the Ruska Roma. After losing her family, she begins a violent mission of revenge while confronting the dangerous world of professional assassins.",
+        "poster": "assets/posters/poster-27.jpg",
+        "backdrop": "assets/images/backdrop-27.jpg",
+        "cast": [
+            "Ana de Armas",
+            "Keanu Reeves",
+            "Ian McShane",
+            "Anjelica Huston"
+        ],
+        "releaseDate": "2025-06-06",
+        "trailer": "https://www.youtube.com/results?search_query=Ballerina+2025+official+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 28,
+        "title": "The Gorge",
+        "year": 2025,
+        "rating": 6.7,
+        "genre": [
+            "Action",
+            "Science Fiction",
+            "Thriller"
+        ],
+        "description": "Two highly trained operatives are assigned to guard opposite sides of a mysterious gorge.",
+        "fullDescription": "Two operatives are stationed in towers on opposite sides of a highly classified gorge. Although they are forbidden from communicating, the two gradually form a connection and discover that a terrifying secret lies beneath them.",
+        "poster": "assets/posters/poster-28.jpg",
+        "backdrop": "assets/images/backdrop-28.jpg",
+        "cast": [
+            "Miles Teller",
+            "Anya Taylor-Joy",
+            "Sigourney Weaver",
+            "Sope Dirisu"
+        ],
+        "releaseDate": "2025-02-14",
+        "trailer": "https://www.youtube.com/results?search_query=The+Gorge+2025+official+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 29,
+        "title": "Inside Out 2",
+        "year": 2024,
+        "rating": 7.6,
+        "genre": [
+            "Animation",
+            "Comedy",
+            "Family"
+        ],
+        "description": "Riley enters her teenage years as new emotions arrive at headquarters.",
+        "fullDescription": "Riley is growing up and entering a new stage of life. Just as Joy, Sadness, Anger, Fear and Disgust have learned to work together, new emotions arrive and completely change the way Riley experiences the world.",
+        "poster": "assets/posters/poster-29.jpg",
+        "backdrop": "assets/images/backdrop-29.jpg",
+        "cast": [
+            "Amy Poehler",
+            "Maya Hawke",
+            "Kensington Tallman",
+            "Liza Lapira"
+        ],
+        "releaseDate": "2024-06-14",
+        "trailer": "https://www.youtube.com/results?search_query=Inside+Out+2+official+trailer",
+        "trending": true,
+        "featured": false
+    },
+    {
+        "id": 30,
+        "title": "Dune: Part Two",
+        "year": 2024,
+        "rating": 8.6,
+        "genre": [
+            "Science Fiction",
+            "Adventure",
+            "Drama"
+        ],
+        "description": "Paul Atreides joins the Fremen while preparing to confront the forces responsible for destroying his family.",
+        "fullDescription": "Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family. As he becomes increasingly connected to the prophecy surrounding him, Paul must choose between love, destiny and the future of the galaxy.",
+        "poster": "assets/posters/poster-30.jpg",
+        "backdrop": "assets/images/backdrop-30.jpg",
+        "cast": [
+            "Timothée Chalamet",
+            "Zendaya",
+            "Rebecca Ferguson",
+            "Austin Butler"
+        ],
+        "releaseDate": "2024-03-01",
+        "trailer": "https://www.youtube.com/results?search_query=Dune+Part+Two+official+trailer",
+        "trending": true,
+        "featured": false
+    },
+    {
+        "id": 31,
+        "title": "Godzilla x Kong: The New Empire",
+        "year": 2024,
+        "rating": 6.1,
+        "genre": [
+            "Action",
+            "Science Fiction",
+            "Adventure"
+        ],
+        "description": "Godzilla and Kong must work together against a new threat hidden deep within the Hollow Earth.",
+        "fullDescription": "Godzilla and Kong are forced into an uneasy alliance when a powerful new threat emerges from the Hollow Earth. Alongside a young human discovery, the two Titans face a battle that could change the balance of the world.",
+        "poster": "assets/posters/poster-31.jpg",
+        "backdrop": "assets/images/backdrop-31.jpg",
+        "cast": [
+            "Rebecca Hall",
+            "Brian Tyree Henry",
+            "Dan Stevens",
+            "Kaylee Hottle"
+        ],
+        "releaseDate": "2024-03-29",
+        "trailer": "https://www.youtube.com/results?search_query=Godzilla+x+Kong+The+New+Empire+official+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 32,
+        "title": "Kingdom of the Planet of the Apes",
+        "year": 2024,
+        "rating": 7,
+        "genre": [
+            "Science Fiction",
+            "Adventure",
+            "Action"
+        ],
+        "description": "Generations after Caesar's reign, a young ape begins a journey that will shape the future of ape and human civilizations.",
+        "fullDescription": "Many generations after Caesar's reign, ape societies have developed while humans have been reduced to a primitive existence. A young ape named Noa begins a journey that forces him to question the history he has been taught and the future of his species.",
+        "poster": "assets/posters/poster-32.jpg",
+        "backdrop": "assets/images/backdrop-32.jpg",
+        "cast": [
+            "Owen Teague",
+            "Freya Allan",
+            "Kevin Durand",
+            "Peter Macon"
+        ],
+        "releaseDate": "2024-05-10",
+        "trailer": "https://www.youtube.com/results?search_query=Kingdom+of+the+Planet+of+the+Apes+official+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 33,
+        "title": "Twisters",
+        "year": 2024,
+        "rating": 6.5,
+        "genre": [
+            "Action",
+            "Adventure",
+            "Thriller"
+        ],
+        "description": "Storm chasers race across Oklahoma as powerful tornadoes threaten communities.",
+        "fullDescription": "Kate Cooper is drawn back into the open plains after a devastating encounter with a tornado years earlier. She joins forces with reckless storm chaser Tyler Owens and his team as unprecedented storm systems begin to form.",
+        "poster": "assets/posters/poster-33.jpg",
+        "backdrop": "assets/images/backdrop-33.jpg",
+        "cast": [
+            "Daisy Edgar-Jones",
+            "Glen Powell",
+            "Anthony Ramos",
+            "Brandon Perea"
+        ],
+        "releaseDate": "2024-07-19",
+        "trailer": "https://www.youtube.com/results?search_query=Twisters+2024+official+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 34,
+        "title": "Alien: Romulus",
+        "year": 2024,
+        "rating": 7.1,
+        "genre": [
+            "Horror",
+            "Science Fiction",
+            "Thriller"
+        ],
+        "description": "Young space colonists encounter a terrifying lifeform while exploring an abandoned space station.",
+        "fullDescription": "A group of young space colonists scavenging an abandoned space station encounter the most terrifying lifeform in the universe. Their mission for survival becomes a desperate fight against an alien creature designed to hunt them.",
+        "poster": "assets/posters/poster-34.jpg",
+        "backdrop": "assets/images/backdrop-34.jpg",
+        "cast": [
+            "Cailee Spaeny",
+            "David Jonsson",
+            "Archie Renaux",
+            "Isabela Merced"
+        ],
+        "releaseDate": "2024-08-16",
+        "trailer": "https://www.youtube.com/results?search_query=Alien+Romulus+official+trailer",
+        "trending": true,
+        "featured": false
+    },
+    {
+        "id": 35,
+        "title": "A Quiet Place: Day One",
+        "year": 2024,
+        "rating": 6.6,
+        "genre": [
+            "Horror",
+            "Science Fiction",
+            "Thriller"
+        ],
+        "description": "A woman must survive the first terrifying day of an alien invasion in New York City.",
+        "fullDescription": "When mysterious creatures that hunt by sound invade New York City, Samira and a small group of survivors struggle to stay alive. The story reveals the terrifying beginning of the invasion that transformed the world.",
+        "poster": "assets/posters/poster-35.jpg",
+        "backdrop": "assets/images/backdrop-35.jpg",
+        "cast": [
+            "Lupita Nyong'o",
+            "Joseph Quinn",
+            "Alex Wolff",
+            "Djimon Hounsou"
+        ],
+        "releaseDate": "2024-06-28",
+        "trailer": "https://www.youtube.com/results?search_query=A+Quiet+Place+Day+One+official+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 36,
+        "title": "Beetlejuice Beetlejuice",
+        "year": 2024,
+        "rating": 6.8,
+        "genre": [
+            "Fantasy",
+            "Comedy",
+            "Horror"
+        ],
+        "description": "The Deetz family returns to Winter River, where Lydia's daughter accidentally opens the door to the afterlife.",
+        "fullDescription": "Years after the original haunting, the Deetz family returns home to Winter River. Lydia's teenage daughter Astrid discovers the mysterious model of the town in the attic and accidentally opens a portal to the afterlife, bringing Beetlejuice back.",
+        "poster": "assets/posters/poster-36.jpg",
+        "backdrop": "assets/images/backdrop-36.jpg",
+        "cast": [
+            "Michael Keaton",
+            "Winona Ryder",
+            "Jenna Ortega",
+            "Catherine O'Hara"
+        ],
+        "releaseDate": "2024-09-06",
+        "trailer": "https://www.youtube.com/results?search_query=Beetlejuice+Beetlejuice+official+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 37,
+        "title": "Gladiator II",
+        "year": 2024,
+        "rating": 6.7,
+        "genre": [
+            "Action",
+            "Adventure",
+            "Drama"
+        ],
+        "description": "A former prince becomes a gladiator and fights to restore his family's honor.",
+        "fullDescription": "Years after the reign of Marcus Aurelius, Lucius is forced into the brutal world of the Colosseum after his home is conquered. Driven by memories of his family and inspired by the legacy of Maximus, he begins a fight for freedom and revenge.",
+        "poster": "assets/posters/poster-37.jpg",
+        "backdrop": "assets/images/backdrop-37.jpg",
+        "cast": [
+            "Paul Mescal",
+            "Denzel Washington",
+            "Pedro Pascal",
+            "Joseph Quinn"
+        ],
+        "releaseDate": "2024-11-22",
+        "trailer": "https://www.youtube.com/results?search_query=Gladiator+II+official+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 38,
+        "title": "Wicked",
+        "year": 2024,
+        "rating": 7.5,
+        "genre": [
+            "Fantasy",
+            "Musical",
+            "Drama"
+        ],
+        "description": "Two young witches form an unexpected friendship that will change the fate of Oz.",
+        "fullDescription": "Elphaba and Glinda meet at Shiz University and initially struggle to understand one another. Their friendship grows despite their differences, eventually setting them on paths that will define the future of Oz.",
+        "poster": "assets/posters/poster-38.jpg",
+        "backdrop": "assets/images/backdrop-38.jpg",
+        "cast": [
+            "Cynthia Erivo",
+            "Ariana Grande",
+            "Jonathan Bailey",
+            "Jeff Goldblum"
+        ],
+        "releaseDate": "2024-11-22",
+        "trailer": "https://www.youtube.com/results?search_query=Wicked+2024+official+trailer",
+        "trending": true,
+        "featured": false
+    },
+    {
+        "id": 39,
+        "title": "Moana 2",
+        "year": 2024,
+        "rating": 6.9,
+        "genre": [
+            "Animation",
+            "Adventure",
+            "Family"
+        ],
+        "description": "Moana and Maui reunite for a dangerous journey across the ocean.",
+        "fullDescription": "Moana receives an unexpected call from her ancestors and sets out on a new voyage into dangerous, unexplored waters. Joined by Maui and an unlikely crew, she must break an ancient curse threatening the people of the ocean.",
+        "poster": "assets/posters/poster-39.jpg",
+        "backdrop": "assets/images/backdrop-39.jpg",
+        "cast": [
+            "Auli'i Cravalho",
+            "Dwayne Johnson",
+            "Hualalai Chung",
+            "Rose Matafeo"
+        ],
+        "releaseDate": "2024-11-27",
+        "trailer": "https://www.youtube.com/results?search_query=Moana+2+official+trailer",
+        "trending": true,
+        "featured": false
+    },
+    {
+        "id": 40,
+        "title": "Venom: The Last Dance",
+        "year": 2024,
+        "rating": 6,
+        "genre": [
+            "Action",
+            "Science Fiction",
+            "Thriller"
+        ],
+        "description": "Eddie and Venom are hunted by enemies from both their worlds.",
+        "fullDescription": "Eddie Brock and Venom are forced to run when powerful enemies close in around them. With their worlds colliding and an unstoppable threat approaching, the unlikely pair must make difficult choices in their final adventure together.",
+        "poster": "assets/posters/poster-40.jpg",
+        "backdrop": "assets/images/backdrop-40.jpg",
+        "cast": [
+            "Tom Hardy",
+            "Chiwetel Ejiofor",
+            "Juno Temple",
+            "Rhys Ifans"
+        ],
+        "releaseDate": "2024-10-25",
+        "trailer": "https://www.youtube.com/results?search_query=Venom+The+Last+Dance+official+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 41,
+        "title": "Despicable Me 4",
+        "year": 2024,
+        "rating": 6.1,
+        "genre": [
+            "Animation",
+            "Comedy",
+            "Family"
+        ],
+        "description": "Gru and his family face a new enemy while welcoming a mischievous new member.",
+        "fullDescription": "Gru, Lucy and their daughters welcome a new baby named Gru Jr. As Gru deals with his son's unpredictable behavior, the family must also escape from a dangerous new enemy who has a personal connection to Gru.",
+        "poster": "assets/posters/poster-41.jpg",
+        "backdrop": "assets/images/backdrop-41.jpg",
+        "cast": [
+            "Steve Carell",
+            "Kristen Wiig",
+            "Pierre Coffin",
+            "Miranda Cosgrove"
+        ],
+        "releaseDate": "2024-07-03",
+        "trailer": "https://www.youtube.com/results?search_query=Despicable+Me+4+official+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 42,
+        "title": "Kung Fu Panda 4",
+        "year": 2024,
+        "rating": 6.3,
+        "genre": [
+            "Animation",
+            "Action",
+            "Comedy"
+        ],
+        "description": "Po must find a new Dragon Warrior while facing a powerful shape-shifting enemy.",
+        "fullDescription": "Po is preparing to leave his role as Dragon Warrior and become the spiritual leader of the Valley of Peace. Before he can do so, he must find his successor and defeat a powerful sorceress who can summon enemies from his past.",
+        "poster": "assets/posters/poster-42.jpg",
+        "backdrop": "assets/images/backdrop-42.jpg",
+        "cast": [
+            "Jack Black",
+            "Awkwafina",
+            "Viola Davis",
+            "Dustin Hoffman"
+        ],
+        "releaseDate": "2024-03-08",
+        "trailer": "https://www.youtube.com/results?search_query=Kung+Fu+Panda+4+official+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 43,
+        "title": "Bad Boys: Ride or Die",
+        "year": 2024,
+        "rating": 6.6,
+        "genre": [
+            "Action",
+            "Comedy",
+            "Crime"
+        ],
+        "description": "Mike and Marcus become fugitives while trying to clear the name of their former police captain.",
+        "fullDescription": "Miami detectives Mike Lowrey and Marcus Burnett are forced to go on the run after their late captain is accused of corruption. Together they must uncover the truth while being hunted by both criminals and law enforcement.",
+        "poster": "assets/posters/poster-43.jpg",
+        "backdrop": "assets/images/backdrop-43.jpg",
+        "cast": [
+            "Will Smith",
+            "Martin Lawrence",
+            "Vanessa Hudgens",
+            "Alexander Ludwig"
+        ],
+        "releaseDate": "2024-06-07",
+        "trailer": "https://www.youtube.com/results?search_query=Bad+Boys+Ride+or+Die+official+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 44,
+        "title": "Furiosa: A Mad Max Saga",
+        "year": 2024,
+        "rating": 7.5,
+        "genre": [
+            "Action",
+            "Adventure",
+            "Science Fiction"
+        ],
+        "description": "Young Furiosa fights to survive after being taken from her home by a ruthless warlord.",
+        "fullDescription": "After being kidnapped from the Green Place of Many Mothers, young Furiosa finds herself caught between rival warlords. As she survives years of conflict and betrayal, she grows into the warrior who will eventually challenge the forces controlling the wasteland.",
+        "poster": "assets/posters/poster-44.jpg",
+        "backdrop": "assets/images/backdrop-44.jpg",
+        "cast": [
+            "Anya Taylor-Joy",
+            "Chris Hemsworth",
+            "Tom Burke",
+            "Alyla Browne"
+        ],
+        "releaseDate": "2024-05-24",
+        "trailer": "https://www.youtube.com/results?search_query=Furiosa+A+Mad+Max+Saga+official+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 45,
+        "title": "The Fall Guy",
+        "year": 2024,
+        "rating": 7,
+        "genre": [
+            "Action",
+            "Comedy",
+            "Romance"
+        ],
+        "description": "A stuntman returns to work when the star of a major movie mysteriously disappears.",
+        "fullDescription": "Colt Seavers is a former stuntman who returns to the film industry after an injury ends his career. When the star of his ex-girlfriend's new movie disappears, Colt is pulled into a dangerous investigation that becomes more complicated than the film itself.",
+        "poster": "assets/posters/poster-45.jpg",
+        "backdrop": "assets/images/backdrop-45.jpg",
+        "cast": [
+            "Ryan Gosling",
+            "Emily Blunt",
+            "Aaron Taylor-Johnson",
+            "Hannah Waddingham"
+        ],
+        "releaseDate": "2024-05-03",
+        "trailer": "https://www.youtube.com/results?search_query=The+Fall+Guy+2024+official+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 46,
+        "title": "Longlegs",
+        "year": 2024,
+        "rating": 6.5,
+        "genre": [
+            "Horror",
+            "Crime",
+            "Thriller"
+        ],
+        "description": "An FBI agent investigates a series of murders connected to a mysterious killer.",
+        "fullDescription": "FBI agent Lee Harker is assigned to investigate a series of disturbing unsolved murders. As she discovers a connection between the victims and an elusive serial killer known as Longlegs, the case becomes increasingly personal and terrifying.",
+        "poster": "assets/posters/poster-46.jpg",
+        "backdrop": "assets/images/backdrop-46.jpg",
+        "cast": [
+            "Maika Monroe",
+            "Nicolas Cage",
+            "Blair Underwood",
+            "Alicia Witt"
+        ],
+        "releaseDate": "2024-07-12",
+        "trailer": "https://www.youtube.com/results?search_query=Longlegs+2024+official+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 47,
+        "title": "Smile 2",
+        "year": 2024,
+        "rating": 6.6,
+        "genre": [
+            "Horror",
+            "Mystery",
+            "Thriller"
+        ],
+        "description": "A pop star begins experiencing terrifying events just as her world tour is about to begin.",
+        "fullDescription": "Global pop sensation Skye Riley begins experiencing increasingly disturbing and unexplained events before her world tour. As the terrifying phenomenon takes control of her life, she must confront her past before it destroys her future.",
+        "poster": "assets/posters/poster-47.jpg",
+        "backdrop": "assets/images/backdrop-47.jpg",
+        "cast": [
+            "Naomi Scott",
+            "Lukas Gage",
+            "Rosemarie DeWitt",
+            "Miles Gutierrez-Riley"
+        ],
+        "releaseDate": "2024-10-18",
+        "trailer": "https://www.youtube.com/results?search_query=Smile+2+official+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 48,
+        "title": "The Wild Robot",
+        "year": 2024,
+        "rating": 8.2,
+        "genre": [
+            "Animation",
+            "Science Fiction",
+            "Family"
+        ],
+        "description": "A robot stranded on a remote island learns to survive and becomes the unlikely parent of an orphaned gosling.",
+        "fullDescription": "Roz, a sophisticated robot, is stranded on an uninhabited island after a shipwreck. She gradually learns how to communicate with the animals and becomes the guardian of an orphaned gosling, discovering unexpected connections between technology and nature.",
+        "poster": "assets/posters/poster-48.jpg",
+        "backdrop": "assets/images/backdrop-48.jpg",
+        "cast": [
+            "Lupita Nyong'o",
+            "Pedro Pascal",
+            "Kit Connor",
+            "Catherine O'Hara"
+        ],
+        "releaseDate": "2024-09-27",
+        "trailer": "https://www.youtube.com/results?search_query=The+Wild+Robot+official+trailer",
+        "trending": true,
+        "featured": false
+    },
+    {
+        "id": 49,
+        "title": "The Substance",
+        "year": 2024,
+        "rating": 7.1,
+        "genre": [
+            "Horror",
+            "Science Fiction",
+            "Drama"
+        ],
+        "description": "A fading celebrity discovers a mysterious substance that creates a younger version of herself.",
+        "fullDescription": "Elisabeth Sparkle is a former celebrity struggling with the loss of her career. After using a mysterious substance that temporarily creates a younger version of herself, she discovers that maintaining the perfect image comes with increasingly horrifying consequences.",
+        "poster": "assets/posters/poster-49.jpg",
+        "backdrop": "assets/images/backdrop-49.jpg",
+        "cast": [
+            "Demi Moore",
+            "Margaret Qualley",
+            "Dennis Quaid",
+            "Gore Abrams"
+        ],
+        "releaseDate": "2024-09-20",
+        "trailer": "https://www.youtube.com/results?search_query=The+Substance+official+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 50,
+        "title": "Challengers",
+        "year": 2024,
+        "rating": 7,
+        "genre": [
+            "Drama",
+            "Romance",
+            "Sport"
+        ],
+        "description": "A former tennis champion becomes the coach of her husband as he faces her former lover on the court.",
+        "fullDescription": "Tashi Duncan is a former tennis prodigy who becomes a coach after an injury ends her playing career. Her husband enters a tournament where he faces Patrick, Tashi's former boyfriend, forcing all three to confront their complicated history.",
+        "poster": "assets/posters/poster-50.jpg",
+        "backdrop": "assets/images/backdrop-50.jpg",
+        "cast": [
+            "Zendaya",
+            "Josh O'Connor",
+            "Mike Faist",
+            "Dede Gardner"
+        ],
+        "releaseDate": "2024-04-26",
+        "trailer": "https://www.youtube.com/results?search_query=Challengers+2024+official+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 51,
+        "title": "Civil War",
+        "year": 2024,
+        "rating": 7,
+        "genre": [
+            "Action",
+            "Drama",
+            "War"
+        ],
+        "description": "A group of journalists travels across a fractured United States during a violent civil conflict.",
+        "fullDescription": "In a near-future United States divided by civil war, journalists travel across the country toward Washington, D.C. Their mission becomes increasingly dangerous as they witness the human cost of a nation at war with itself.",
+        "poster": "assets/posters/poster-51.jpg",
+        "backdrop": "assets/images/backdrop-51.jpg",
+        "cast": [
+            "Kirsten Dunst",
+            "Wagner Moura",
+            "Cailee Spaeny",
+            "Stephen McKinley Henderson"
+        ],
+        "releaseDate": "2024-04-12",
+        "trailer": "https://www.youtube.com/results?search_query=Civil+War+2024+official+trailer",
+        "trending": false,
+        "featured": false
+    },
+    {
+        "id": 52,
+        "title": "Monkey Man",
+        "year": 2024,
+        "rating": 6.8,
+        "genre": [
+            "Action",
+            "Thriller",
+            "Crime"
+        ],
+        "description": "A mysterious fighter seeks revenge against the people responsible for destroying his life.",
+        "fullDescription": "A young man who survives by fighting in an underground club begins a violent campaign against the powerful figures responsible for his childhood trauma. Inspired by the legend of Hanuman, he transforms from an anonymous fighter into an unlikely symbol of resistance.",
+        "poster": "assets/posters/poster-52.jpg",
+        "backdrop": "assets/images/backdrop-52.jpg",
+        "cast": [
+            "Dev Patel",
+            "Sharlto Copley",
+            "Pitobash",
+            "Sobhita Dhulipala"
+        ],
+        "releaseDate": "2024-04-05",
+        "trailer": "https://www.youtube.com/results?search_query=Monkey+Man+2024+official+trailer",
         "trending": false,
         "featured": false
     }
